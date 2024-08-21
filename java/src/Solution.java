@@ -1,7 +1,19 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Leetcode Java Solutions
+ */
 public class Solution {
+
+    /**
+     * Default constructor for the Solution class.
+     * This constructor initializes the Solution class.
+     */
+    public Solution() {
+        // Initialization code (if any) goes here
+    }
+
     /**
      * <h4><a href="https://leetcode.com/problems/excel-sheet-column-number/description/">Excel Sheet Column Number</a></h4>
      * Converts an Excel sheet column title (e.g., "A", "AB") to its corresponding column number.<br>
@@ -35,7 +47,7 @@ public class Solution {
     }
 
     /**
-     * <h4></><a href="https://leetcode.com/problems/length-of-last-word/description/">Length of Last Word</a></h4>
+     * <h4><a href="https://leetcode.com/problems/length-of-last-word/description/">Length of Last Word</a></h4>
      * Returns the length of the last word in the given string.<br>
      * <br>
      * The method first skips any trailing spaces at the end of the string. Then, it counts the number of characters
@@ -78,7 +90,7 @@ public class Solution {
 
 
     /**
-     * <h4></><a href="https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/">Find the Index of the First Occurrence in a String</a></h4>
+     * <h4><a href="https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/">Find the Index of the First Occurrence in a String</a></h4>
      * Implements the `strStr()` function, which locates the first occurrence of the substring `needle`
      * in the string `haystack`.<br>
      * <br>
@@ -111,7 +123,7 @@ public class Solution {
     }
 
     /**
-     * <h4></><a href="https://leetcode.com/problems/repeated-substring-pattern/">Repeated Substring Pattern</a></h4>
+     * <h4><a href="https://leetcode.com/problems/repeated-substring-pattern/">Repeated Substring Pattern</a></h4>
      * Checks if the given string `s` can be constructed by repeating a substring of itself.<br>
      * <br>
      * Time Complexity: O(n) - where n is the length of the string `s`.<br>
