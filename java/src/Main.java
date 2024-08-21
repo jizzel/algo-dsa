@@ -12,5 +12,6 @@ public class Main {
         System.out.println(Solution.repeatedSubstringPattern("abab"));
         System.out.println(Solution.toLowerCase("Hello"));
         System.out.println(Solution.fizzBuzz(3));
+        System.out.println(Solution.longestCommonPrefix(new String[]{"flower","flow","flight"}));
     }
 }
