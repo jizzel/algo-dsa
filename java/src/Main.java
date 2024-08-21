@@ -11,5 +11,6 @@ public class Main {
         System.out.println(Solution.strStr("sadbutsad", "sad"));
         System.out.println(Solution.repeatedSubstringPattern("abab"));
         System.out.println(Solution.toLowerCase("Hello"));
+        System.out.println(Solution.fizzBuzz(3));
     }
 }
