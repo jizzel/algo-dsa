@@ -1,5 +1,7 @@
 # LeetCode Solutions - Python & Java
 
+![Image Description](leetcode.png)
+
 ## What You'll Find:
 
 This repository serves as a collaborative platform for our daily LeetCode problem-solving adventures!
