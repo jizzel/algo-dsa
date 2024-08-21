@@ -7,6 +7,7 @@ public class Main {
         System.out.println("Hello and welcome!");
 
         System.out.println(Solution.titleToNumber("ZY"));
+        System.out.println(Solution.lengthOfLastWord("Hello World"));
         System.out.println(Solution.strStr("sadbutsad", "sad"));
     }
 }
