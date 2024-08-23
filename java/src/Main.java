@@ -30,5 +30,6 @@ public class Main {
         System.out.println(Solution.fizzBuzz(3));
         System.out.println(Solution.longestCommonPrefix(new String[]{"flower","flow","flight"}));
         System.out.println(Solution.detectCapitalUse("FFFf"));
+        System.out.println(Solution.wordPattern("abba", "dog cat cat dog"));
     }
 }
