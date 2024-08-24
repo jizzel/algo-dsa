@@ -7,4 +7,5 @@
 To generate the Javadocs HTML documentation, use the following command:
 
 ```sh
-javadoc -d out java/src/*.java
+javadoc -d java/out java/src/main/java/org/algodsa/*.java
+```
