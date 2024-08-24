@@ -1,3 +1,5 @@
+package main.java.org.algodsa;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
