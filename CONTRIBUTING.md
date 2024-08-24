@@ -58,7 +58,6 @@ Ensure that you have the necessary tools installed to run the LeetCode solutions
    - Follow the existing directory structure:
      - Place Python solutions in the `python/` directory.
      - Place Java solutions in the `java/` directory.
-   - Name the file according to the problem ID and title (e.g., `0020-valid-parentheses.py` for Python or `Solution0020.java` for Java).
 
 3. **Add test cases**:
    - Include test cases in the same file (for simplicity) or in a dedicated `tests/` directory.
@@ -67,7 +66,7 @@ Ensure that you have the necessary tools installed to run the LeetCode solutions
    - Write clear and concise commit messages:
    ```bash
    git add .
-   git commit -m "Add solution for LeetCode 0020: Valid Parentheses"
+   git commit -m "feat: Add solution for LeetCode 0020: Valid Parentheses"
    ```
 
 5. **Push your branch**:
