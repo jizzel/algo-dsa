@@ -8,12 +8,12 @@ public class BinaryTree {
     /**
      * The root node of the binary tree.
      */
-    TreeNode root;
+    public TreeNode root;
 
     /**
      * Initializes an empty binary tree with the root set to null.
      */
-    BinaryTree(){
+    public BinaryTree(){
         root = null;
     }
 
@@ -23,7 +23,7 @@ public class BinaryTree {
      *
      * @param node The starting node for the traversal. Typically, this should be the root node.
      */
-    void printPreOrder(TreeNode node){
+    public void printPreOrder(TreeNode node){
         if (node == null) return;
 
         // Visit root
@@ -42,7 +42,7 @@ public class BinaryTree {
      *
      * @param node The starting node for the traversal. Typically, this should be the root node.
      */
-    void printInOrder(TreeNode node){
+    public void printInOrder(TreeNode node){
         if (node == null) return;
 
         // Traverse left subtree
@@ -61,7 +61,7 @@ public class BinaryTree {
      *
      * @param node The starting node for the traversal. Typically, this should be the root node.
      */
-    void printPostOrder(TreeNode node) {
+    public void printPostOrder(TreeNode node) {
         if (node == null) return;
 
         // Traverse left subtree

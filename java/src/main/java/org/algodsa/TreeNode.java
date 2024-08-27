@@ -13,12 +13,12 @@ public class TreeNode {
     /**
      * Reference to the left child node.
      */
-    TreeNode left;
+    public TreeNode left;
 
     /**
      * Reference to the right child node.
      */
-    TreeNode right;
+    public TreeNode right;
 
     /**
      * Constructs a TreeNode with a specified value.
@@ -26,7 +26,7 @@ public class TreeNode {
      *
      * @param val the value of the node
      */
-    TreeNode(int val){
+    public TreeNode(int val){
         this.val = val;
         this.left = this.right = null;
     }
