@@ -1,6 +1,7 @@
 package test.java.org.algodsa;
 
 import main.java.org.algodsa.BinaryTree;
+import main.java.org.algodsa.Solution;
 import main.java.org.algodsa.TreeNode;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -8,6 +9,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
+import java.util.Arrays;
+import java.util.List;
 
 class BinaryTreeTest {
     private BinaryTree binaryTree;
@@ -74,6 +77,27 @@ class BinaryTreeTest {
         // Test Post-Order traversal on an empty tree (should output nothing)
         emptyTree.printPostOrder(emptyTree.root);
         assertEquals("", outputStreamCaptor.toString());
+    }
+
+    @Test
+    public void testPreorderTraversal() {
+        List<Integer> expected = Arrays.asList(1, 2, 4, 5, 3, 6, 7);
+        List<Integer> actual = Solution.preorderTraversal(binaryTree.root);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testInorderTraversal() {
+        List<Integer> expected = Arrays.asList(4, 2, 5, 1, 6, 3, 7);
+        List<Integer> actual = Solution.inorderTraversal(binaryTree.root);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testPostorderTraversal() {
+        List<Integer> expected = Arrays.asList(4, 5, 2, 6, 7, 3, 1);
+        List<Integer> actual = Solution.postorderTraversal(binaryTree.root);
+        assertEquals(expected, actual);
     }
 }
 
