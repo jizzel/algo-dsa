@@ -135,5 +135,68 @@ class BinaryTreeTest {
         // Reset System.out
         System.setOut(System.out);
     }
+
+    @Test
+    public void testLevelOrderBottom() {
+        // Expected output: [[4, 5, 6, 7], [2, 3], [1]]
+        List<List<Integer>> expected = Arrays.asList(
+                Arrays.asList(4, 5, 6, 7),
+                Arrays.asList(2, 3),
+                Arrays.asList(1)
+        );
+
+        List<List<Integer>> actual = Solution.levelOrderBottom(binaryTree.root);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testLevelOrderBottomWithEmptyTree() {
+        // Tree is empty (root is null)
+        binaryTree.root = null;
+
+        // Expected output: []
+        List<List<Integer>> expected = Arrays.asList();
+
+        List<List<Integer>> actual = Solution.levelOrderBottom(binaryTree.root);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testLevelOrderBottomWithUnbalancedTree() {
+        // Unbalanced tree:
+        //       1
+        //        \
+        //         2
+        //          \
+        //           3
+
+        binaryTree.root = new TreeNode(1);
+        binaryTree.root.right = new TreeNode(2);
+        binaryTree.root.right.right = new TreeNode(3);
+
+        // Expected output: [[3], [2], [1]]
+        List<List<Integer>> expected = Arrays.asList(
+                Arrays.asList(3),
+                Arrays.asList(2),
+                Arrays.asList(1)
+        );
+
+        List<List<Integer>> actual = Solution.levelOrderBottom(binaryTree.root);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testLevelOrderBottomWithSingleNode() {
+        // Tree with only one node
+        binaryTree.root = new TreeNode(1);
+
+        // Expected output: [[1]]
+        List<List<Integer>> expected = Arrays.asList(
+                Arrays.asList(1)
+        );
+
+        List<List<Integer>> actual = Solution.levelOrderBottom(binaryTree.root);
+        assertEquals(expected, actual);
+    }
 }
 
