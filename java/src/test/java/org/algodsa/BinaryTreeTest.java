@@ -121,5 +121,19 @@ class BinaryTreeTest {
         // Reset System.out
         System.setOut(System.out);
     }
+
+    @Test
+    public void testPrintLevelOrderEfficient() {
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        binaryTree.printLevelOrderEfficient(binaryTree.root);
+
+        String expectedOutput = "1\n2\n3\n4\n5\n6\n7\n";
+        assertEquals(expectedOutput, outContent.toString());
+
+        // Reset System.out
+        System.setOut(System.out);
+    }
 }
 

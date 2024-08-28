@@ -1,5 +1,8 @@
 package main.java.org.algodsa;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Represents a binary tree data structure.
  * This class provides methods for tree traversal using Pre-Order, In-Order, and Post-Order techniques.
@@ -123,5 +126,32 @@ public class BinaryTree {
         // Return max(subtree_height) + 1 to get the height of the tree
         return Math.max(lSubTreeHeight, rSubTreeHeight) + 1;
     }
+
+    /**
+     * Prints the nodes of the binary tree in Level-Order traversal.
+     * Level-Order traversal visits nodes level by level from top to bottom,
+     * and from left to right within each level.
+     * <p>
+     * This implementation uses a queue to efficiently traverse the tree level by level.
+     * Each node is enqueued and then dequeued, and its value is printed.
+     * Its children (if any) are then enqueued to be processed in subsequent iterations.
+     * </p>
+     *
+     * @param root The root node of the binary tree to be traversed. If the root is null,
+     *             the method does nothing.
+     */
+    public void printLevelOrderEfficient(TreeNode root) {
+        if (root == null) return;
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+            System.out.println(node.val);
+            if (node.left != null) queue.add(node.left);
+            if (node.right != null) queue.add(node.right);
+        }
+    }
+
 
 }
