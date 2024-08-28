@@ -73,4 +73,55 @@ public class BinaryTree {
         // Visit root
         System.out.println(node.val);
     }
+
+    /**
+     * Prints all nodes in the binary tree level by level.
+     * The traversal is performed in level order (Breadth-First Search).
+     *
+     * @param root The root node of the binary tree.
+     */
+    public void printLevelOrder(TreeNode root) {
+        int height = getTreeHeight(root);
+
+        for (int level = 0; level < height; level++) {
+            printLevel(root, level);
+        }
+    }
+
+    /**
+     * Recursively prints all nodes at a specific level in the binary tree.
+     * The level is determined by the `stepsRemaining` parameter, which decreases with each recursive call.
+     *
+     * @param root The root node of the binary tree or the subtree.
+     * @param stepsRemaining The number of levels left to traverse until the target level is reached.
+     */
+    private void printLevel(TreeNode root, int stepsRemaining) {
+        if (root == null) return;
+
+        if (stepsRemaining == 0) {
+            System.out.println(root.val);
+        } else {
+            printLevel(root.left, stepsRemaining - 1);
+            printLevel(root.right, stepsRemaining - 1);
+        }
+    }
+
+    /**
+     * Calculates the height of the binary tree.
+     * The height is defined as the number of edges on the longest path from the root to a leaf node.
+     *
+     * @param node The root node of the binary tree or the subtree.
+     * @return The height of the tree.
+     */
+    public int getTreeHeight(TreeNode node) {
+        if (node == null) return 0;
+
+        // Find the height of left and right subtrees
+        int lSubTreeHeight = getTreeHeight(node.left);
+        int rSubTreeHeight = getTreeHeight(node.right);
+
+        // Return max(subtree_height) + 1 to get the height of the tree
+        return Math.max(lSubTreeHeight, rSubTreeHeight) + 1;
+    }
+
 }

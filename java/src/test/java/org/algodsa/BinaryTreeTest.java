@@ -99,5 +99,27 @@ class BinaryTreeTest {
         List<Integer> actual = Solution.postorderTraversal(binaryTree.root);
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void testGetTreeHeight() {
+        int height = binaryTree.getTreeHeight(binaryTree.root);
+        assertEquals(3, height);  // The tree height should be 3
+    }
+
+    @Test
+    public void testPrintLevelOrder() {
+
+        // Capture the output of printLevelOrder
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        binaryTree.printLevelOrder(binaryTree.root);
+
+        String expectedOutput = "1\n2\n3\n4\n5\n6\n7\n";
+        assertEquals(expectedOutput, outContent.toString());
+
+        // Reset System.out
+        System.setOut(System.out);
+    }
 }
 
