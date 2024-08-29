@@ -39,6 +39,30 @@ public class SolutionTest {
     }
 
     @Test
+    void testTitleToNumber() {
+        // Single-letter cases
+        assertEquals(1, Solution.titleToNumber("A"));
+        assertEquals(26, Solution.titleToNumber("Z"));
+
+        // Double-letter cases
+        assertEquals(27, Solution.titleToNumber("AA"));
+        assertEquals(52, Solution.titleToNumber("AZ"));
+        assertEquals(701, Solution.titleToNumber("ZY"));
+        assertEquals(702, Solution.titleToNumber("ZZ"));
+
+        // Triple-letter cases
+        assertEquals(703, Solution.titleToNumber("AAA"));
+        assertEquals(1404, Solution.titleToNumber("BAZ"));
+
+        // Various cases
+        assertEquals(28, Solution.titleToNumber("AB"));
+        assertEquals(18278, Solution.titleToNumber("ZZZ"));
+
+        // Large input case
+        assertEquals(494265, Solution.titleToNumber("ABCDE"));
+    }
+
+    @Test
     public void testLengthOfLastWord() {
         assertEquals(5, Solution.lengthOfLastWord("Hello World"));
         assertEquals(4, Solution.lengthOfLastWord("   fly me   to   the moon  "));

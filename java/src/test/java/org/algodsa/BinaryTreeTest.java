@@ -28,7 +28,7 @@ class BinaryTreeTest {
         //     / \ / \
         //    4  5 6  7
 
-        binaryTree.root = SolutionTest.setUp();;
+        binaryTree.root = SolutionTest.setUp();
 
         // Capture system output for testing purposes
         System.setOut(new PrintStream(outputStreamCaptor));
@@ -136,7 +136,7 @@ class BinaryTreeTest {
         List<List<Integer>> expected = Arrays.asList(
                 Arrays.asList(4, 5, 6, 7),
                 Arrays.asList(2, 3),
-                Arrays.asList(1)
+                List.of(1)
         );
 
         List<List<Integer>> actual = Solution.levelOrderBottom(binaryTree.root);
@@ -149,7 +149,7 @@ class BinaryTreeTest {
         binaryTree.root = null;
 
         // Expected output: []
-        List<List<Integer>> expected = Arrays.asList();
+        List<List<Integer>> expected = List.of();
 
         List<List<Integer>> actual = Solution.levelOrderBottom(binaryTree.root);
         assertEquals(expected, actual);
@@ -170,9 +170,9 @@ class BinaryTreeTest {
 
         // Expected output: [[3], [2], [1]]
         List<List<Integer>> expected = Arrays.asList(
-                Arrays.asList(3),
-                Arrays.asList(2),
-                Arrays.asList(1)
+                List.of(3),
+                List.of(2),
+                List.of(1)
         );
 
         List<List<Integer>> actual = Solution.levelOrderBottom(binaryTree.root);
@@ -185,8 +185,8 @@ class BinaryTreeTest {
         binaryTree.root = new TreeNode(1);
 
         // Expected output: [[1]]
-        List<List<Integer>> expected = Arrays.asList(
-                Arrays.asList(1)
+        List<List<Integer>> expected = List.of(
+                List.of(1)
         );
 
         List<List<Integer>> actual = Solution.levelOrderBottom(binaryTree.root);
