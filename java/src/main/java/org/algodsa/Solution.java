@@ -636,9 +636,11 @@ public class Solution {
 
             for (int i = 0; i < levelSize; i++) {
                 TreeNode node = queue.poll();
-                subResult.add(node.val);
-                if (node.left != null) queue.add(node.left);
-                if (node.right != null) queue.add(node.right);
+                if(node != null) {
+                    subResult.add(node.val);
+                    if (node.left != null) queue.add(node.left);
+                    if (node.right != null) queue.add(node.right);
+                }
             }
 
             result.add(subResult);
