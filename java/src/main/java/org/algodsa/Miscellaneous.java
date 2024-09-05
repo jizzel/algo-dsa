@@ -13,7 +13,7 @@ public class Miscellaneous {
      */
     Miscellaneous() {}
     /**
-     * <h4><a href="https://leetcode.com/problems/running-sum-of-1d-array/">Running Sum of 1d Array</a></h4>
+     * <h4><a href="https://leetcode.com/problems/running-sum-of-1d-array/">Running Sum of 1d Array (Linear Search)</a></h4>
      * Computes the running sum of an array of integers. <br>
      * <br>
      * The running sum of a given array is an array where each element at index `i` is the sum of all elements
@@ -220,7 +220,7 @@ public class Miscellaneous {
      * @param target the value to search for
      * @return the index of the target if found, otherwise -1
      */
-    public static int search(int[] nums, int target) {
+    public static int searchBinary(int[] nums, int target) {
         int low = 0;
         int high = nums.length - 1;
 
