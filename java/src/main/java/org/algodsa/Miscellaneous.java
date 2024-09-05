@@ -220,7 +220,7 @@ public class Miscellaneous {
      * @param target the value to search for
      * @return the index of the target if found, otherwise -1
      */
-    public int search(int[] nums, int target) {
+    public static int search(int[] nums, int target) {
         int low = 0;
         int high = nums.length - 1;
 
