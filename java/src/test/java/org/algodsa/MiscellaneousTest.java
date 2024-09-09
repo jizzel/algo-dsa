@@ -4,6 +4,9 @@ import main.java.org.algodsa.Miscellaneous;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class MiscellaneousTest {
@@ -63,5 +66,41 @@ class MiscellaneousTest {
         int[] nums5 = {1};
         int target5 = 5;
         assertEquals(-1, Miscellaneous.searchBinary(nums5, target5), "Target 5 should not be found in single element array, return -1");
+    }
+
+    @Test
+    void testPrintPyramid() {
+        // Redirect System.out to capture the printed output
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        // Test with different pyramid sizes
+        Miscellaneous.printPyramid(1);
+        String expectedOutput1 = "*\n";
+        assertEquals(expectedOutput1, outContent.toString(), "Pyramid of size 1 failed.");
+
+        // Clear the output stream
+        outContent.reset();
+
+        Miscellaneous.printPyramid(2);
+        String expectedOutput2 = " *\n***\n";
+        assertEquals(expectedOutput2, outContent.toString(), "Pyramid of size 2 failed.");
+
+        // Clear the output stream
+        outContent.reset();
+
+        Miscellaneous.printPyramid(3);
+        String expectedOutput3 = "  *\n ***\n*****\n";
+        assertEquals(expectedOutput3, outContent.toString(), "Pyramid of size 3 failed.");
+
+        // Clear the output stream
+        outContent.reset();
+
+        Miscellaneous.printPyramid(4);
+        String expectedOutput4 = "   *\n  ***\n *****\n*******\n";
+        assertEquals(expectedOutput4, outContent.toString(), "Pyramid of size 4 failed.");
+
+        // Reset System.out back to its original state
+        System.setOut(System.out);
     }
 }
