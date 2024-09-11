@@ -8,7 +8,7 @@ public class TreeNode {
     /**
      * The value stored in the node.
      */
-    int val;
+    public int val;
 
     /**
      * Reference to the left child node.
