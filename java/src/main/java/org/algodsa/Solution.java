@@ -1,9 +1,6 @@
 package main.java.org.algodsa;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Leetcode Java Solutions
@@ -410,6 +407,341 @@ public class Solution {
 
         // Reverse the result and convert it to a string
         return result.reverse().toString();
+    }
+
+    /**
+     * <h4><a href="https://leetcode.com/problems/binary-tree-preorder-traversal/">Binary Tree Preorder Traversal</a></h4>
+     * Performs a preorder traversal on a binary tree. <br>
+     * <br>
+     * In preorder traversal, the nodes are recursively visited in this order:<br>
+     * 1. Visit the current node.<br>
+     * 2. Traverse the left subtree.<br>
+     * 3. Traverse the right subtree.<br>
+     * <br>
+     * The method uses a helper function `preOrder` to recursively traverse the tree
+     * and add the values of the nodes to a result list.<br>
+     * <br>
+     * Time Complexity: O(n) - where n is the number of nodes in the tree. Each node is visited once.<br>
+     * Space Complexity: O(n) - for the result list. The recursion stack space is O(h), where h is the height of the tree.<br>
+     * <br>
+     * @param root the root node of the binary tree
+     * @return a list of integers representing the values of the nodes in preorder
+     */
+    public static List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        return preOrder(root, result);
+    }
+
+    /**
+     *  Helper method
+     * @param node TreeNode
+     * @param result result
+     * @return end
+     */
+    private static List<Integer> preOrder(TreeNode node, List<Integer> result) {
+        if (node == null) return result;
+
+        result.add(node.val);         // Visit the current node
+        preOrder(node.left, result);  // Traverse the left subtree
+        preOrder(node.right, result); // Traverse the right subtree
+
+        return result;
+    }
+
+    /**
+     * <h4><a href="https://leetcode.com/problems/binary-tree-inorder-traversal/description/">Binary Tree Inorder Traversal</a></h4>
+     * Performs an inorder traversal on a binary tree.<br>
+     * <br>
+     * In inorder traversal, the nodes are recursively visited in this order:<br>
+     * 1. Traverse the left subtree.<br>
+     * 2. Visit the current node.<br>
+     * 3. Traverse the right subtree.<br>
+     * <br>
+     * The method uses a helper function `inorder` to recursively traverse the tree
+     * and add the values of the nodes to a result list.<br>
+     * <br>
+     * Time Complexity: O(n) - where n is the number of nodes in the tree. Each node is visited once.<br>
+     * Space Complexity: O(n) - for the result list. The recursion stack space is O(h), where h is the height of the tree.<br>
+     * <br>
+     * @param root the root node of the binary tree
+     * @return a list of integers representing the values of the nodes in inorder
+     */
+    public static List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        return inorder(root, result);
+    }
+
+    /**
+     * Helper method
+     * @param node TreeNode
+     * @param res result
+     * @return end
+     */
+    private static List<Integer> inorder(TreeNode node, List<Integer> res) {
+        if (node == null) return res;
+
+        inorder(node.left, res);  // Traverse the left subtree
+        res.add(node.val);        // Visit the current node
+        inorder(node.right, res); // Traverse the right subtree
+
+        return res;
+    }
+
+    /**
+     * <h4><a href="https://leetcode.com/problems/binary-tree-postorder-traversal/description/">Binary Tree Postorder Traversal</a></h4>
+     * Performs a postorder traversal on a binary tree.<br>
+     * <br>
+     * In postorder traversal, the nodes are recursively visited in this order:<br>
+     * 1. Traverse the left subtree.<br>
+     * 2. Traverse the right subtree.<br>
+     * 3. Visit the current node.<br>
+     * <br>
+     * The method uses a helper function `postOrder` to recursively traverse the tree
+     * and add the values of the nodes to a result list.<br>
+     * <br>
+     * Time Complexity: O(n) - where n is the number of nodes in the tree. Each node is visited once.
+     * Space Complexity: O(n) - for the result list. The recursion stack space is O(h), where h is the height of the tree.
+     *
+     * @param root the root node of the binary tree
+     * @return a list of integers representing the values of the nodes in postorder
+     */
+    public static List<Integer> postorderTraversal(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        return postOrder(root, result);
+    }
+
+    /**
+     * Helper method
+     * @param node TreeNode
+     * @param result result
+     * @return end
+     */
+    private static List<Integer> postOrder(TreeNode node, List<Integer> result) {
+        if (node == null) return result;
+
+        postOrder(node.left, result);  // Traverse the left subtree
+        postOrder(node.right, result); // Traverse the right subtree
+        result.add(node.val);          // Visit the current node
+
+        return result;
+    }
+
+    /**
+     * <h4><a href="https://leetcode.com/problems/binary-tree-level-order-traversal/description/">Binary Tree Level Order Traversal</a></h4>
+     * Performs a level-order traversal (also known as breadth-first traversal) on a binary tree.<br>
+     * <br>
+     * Level-order traversal visits nodes level by level, from left to right. This method
+     * constructs a list of lists where each inner list contains the values of nodes at a specific level
+     * of the tree.<br>
+     * <br>
+     * The method uses two helper functions:<br>
+     * 1. `getTreeHeight` to determine the height of the tree.<br>
+     * 2. `getLevelOrder` to collect nodes at a specific level.<br>
+     * <br>
+     * Time Complexity: O(n) - where n is the number of nodes in the tree. Each node is visited once.<br>
+     * Space Complexity: O(n) - for storing the result list and the recursion stack space.<br>
+     * <br>
+     * @param root the root node of the binary tree
+     * @return a list of lists, where each inner list contains the values of nodes at that level
+     */
+    public static List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> result = new ArrayList<>();
+
+        // Get the height of the tree
+        int height = getTreeHeight(root);
+
+        // Traverse each level
+        for (int level = 0; level < height; level++) {
+            List<Integer> levelNodes = new ArrayList<>();
+            getLevelOrder(root, level, levelNodes);
+            if (!levelNodes.isEmpty()) {
+                result.add(levelNodes);
+            }
+        }
+
+        return result;
+    }
+
+    /**
+     * Helper method to collect nodes at a specific level.<br>
+     * <br>
+     * This method recursively traverses the tree to collect nodes at a given level.<br>
+     * <br>
+     * @param root the current node in the binary tree
+     * @param stepsRemaining the remaining levels to traverse
+     * @param list the list to which node values at the current level will be added
+     */
+    private static void getLevelOrder(TreeNode root, int stepsRemaining, List<Integer> list) {
+        if (root == null) return;
+
+        if (stepsRemaining == 0) {
+            list.add(root.val); // Add node value to list
+            return;
+        }
+
+        // Recur for left and right children with decremented level
+        getLevelOrder(root.left, stepsRemaining - 1, list);
+        getLevelOrder(root.right, stepsRemaining - 1, list);
+    }
+
+    /**
+     * Helper method to calculate the height of the tree.<br>
+     * <br>
+     * The height of a binary tree is the length of the longest path from the root to a leaf.<br>
+     * <br>
+     * @param root the root node of the binary tree
+     * @return the height of the tree
+     */
+    private static int getTreeHeight(TreeNode root) {
+        if (root == null) return 0;
+
+        // Get the height of left and right subtrees
+        int lHeight = getTreeHeight(root.left);
+        int rHeight = getTreeHeight(root.right);
+
+        // The height of the tree is the maximum height of the subtrees plus one for the current node
+        return Math.max(lHeight, rHeight) + 1;
+    }
+
+    /**
+     * <h4><a href="https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/">Binary Tree Level Order Traversal II</a></h4>
+     * Performs a level-order traversal of a binary tree and returns the node values
+     * level-by-level from bottom to top.<br>
+     * <br>
+     * This method uses a queue to traverse the tree level by level, collecting the values
+     * at each level and storing them in a list of lists. Finally, the result is reversed
+     * so that levels are ordered from bottom to top.<br>
+     * <br>
+     * Time Complexity: O(n) - where n is the number of nodes in the tree. Each node is visited once.<br>
+     * Space Complexity: O(n) - for storing the result list and the queue.<br>
+     *
+     * @param root the root node of the binary tree
+     * @return a list of lists, where each inner list contains the values of nodes at that level, ordered from bottom to top
+     */
+    public static List<List<Integer>> levelOrderBottom(TreeNode root) {
+        // Define the return variable
+        List<List<Integer>> result = new ArrayList<>();
+
+        // Safety check
+        if (root == null) return result;
+
+        // Declare a queue and add the root node
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+
+        // Perform level-order traversal
+        while (!queue.isEmpty()) {
+            int levelSize = queue.size();
+            List<Integer> subResult = new ArrayList<>();
+
+            for (int i = 0; i < levelSize; i++) {
+                TreeNode node = queue.poll();
+                if(node != null) {
+                    subResult.add(node.val);
+                    if (node.left != null) queue.add(node.left);
+                    if (node.right != null) queue.add(node.right);
+                }
+            }
+
+            result.add(subResult);
+        }
+
+        // Reverse the result to get bottom-to-top order
+        Collections.reverse(result);
+        return result;
+    }
+
+    /**
+     * <h4><a href="https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/description/">Kth Largest Sum in a Binary Tree</a></h4>
+     * Returns the k-th largest level sum in a binary tree.<br>
+     * <br>
+     * This method performs a level-order traversal of the binary tree to compute the sum of
+     * node values at each level. The sums are then sorted in descending order, and the
+     * k-th largest sum is returned.<br>
+     * <br>
+     * Time Complexity: O(n log n) - where n is the number of levels in the tree, primarily due to sorting.<br>
+     * Space Complexity: O(n) - for storing the sums of the levels.<br>
+     * <br>
+     * @param root the root node of the binary tree
+     * @param k the position of the largest level sum to return (1-based index)
+     * @return the k-th largest level sum, or -1 if k is out of bounds
+     */
+    public static long kthLargestLevelSum(TreeNode root, int k) {
+        // Declare a list to store the level sums
+        List<Long> result = new ArrayList<>();
+
+        // Perform level-order traversal and sum node values at each level
+        doLevelOrder(root, result);
+
+        // Sort the sums in descending order
+        result.sort(Collections.reverseOrder());
+
+        // Return the k-th largest sum if within bounds
+        if (k > result.size()) return -1;
+
+        return result.get(k - 1);
+    }
+
+    /**
+     * Helper method to perform a level-order traversal and calculate the sum of node values at each level.<br>
+     * <br>
+     * This method uses a queue to traverse the tree level by level, summing the node values
+     * at each level and storing the sum in the provided list.<br>
+     * <br>
+     * @param root the root node of the binary tree
+     * @param array the list to store the sum of node values at each level
+     */
+    public static void doLevelOrder(TreeNode root, List<Long> array) {
+        if (root == null) return;
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+
+        // Perform level-order traversal
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            long sum = 0;
+            for (int i = 0; i < size; i++) {
+                TreeNode node = queue.poll();
+                if (node != null) {
+                    sum += node.val;
+
+                    if (node.left != null) queue.add(node.left);
+                    if (node.right != null) queue.add(node.right);
+                }
+            }
+            array.add(sum);
+        }
+    }
+
+    /**
+     * <h4><a href="https://leetcode.com/problems/invert-binary-tree/description/">Invert Binary Tree</a></h4>
+     * Inverts a binary tree by swapping the left and right child of every node recursively.<br>
+     * <br>
+     * Inversion means that for each node, its left and right children are swapped.<br>
+     * <br>
+     * @param root the root of the binary tree
+     * @return the root of the inverted binary tree
+     * <br>
+     * Time Complexity: O(n) - where n is the number of nodes in the tree, as we need to visit each node once.<br>
+     * Space Complexity: O(h) - where h is the height of the tree due to the recursive call stack. In the worst case,
+     * this can be O(n) for a skewed tree.<br>
+     */
+    public static TreeNode invertTree(TreeNode root) {
+        // Base case: If the node is null, there's nothing to invert
+        if (root == null) return null;
+
+        // Temporarily store the left child
+        TreeNode temp = root.left;
+
+        // Recursively invert the right subtree and assign it to the left child
+        root.left = invertTree(root.right);
+
+        // Recursively invert the left subtree and assign it to the right child
+        root.right = invertTree(temp);
+
+        // Return the current root after inversion
+        return root;
     }
 
 }
