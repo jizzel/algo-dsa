@@ -248,4 +248,16 @@ public class SolutionTest {
         assertEquals(5, invertedRoot.right.left.val); // originally right child of 2
         assertEquals(4, invertedRoot.right.right.val); // originally left child of 2
     }
+
+    @Test
+    public void testDiameterOfBinaryTree() {
+        TreeNode root = setUp();
+
+        // Test the diameter of the binary tree
+        int diameter = Solution.diameterOfBinaryTree(root);
+
+        // The diameter is the longest path between any two nodes, which is 4 in this case:
+        // Path: 4 -> 2 -> 1 -> 3 -> 7
+        assertEquals(4, diameter);
+    }
 }
