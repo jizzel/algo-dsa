@@ -477,18 +477,19 @@ public class Miscellaneous {
     }
 
     /**
-     * Finds two numbers in the input array that add up to a specified target.
-     *
-     * This method returns the indices of the two numbers such that they add up to the target.
-     * It assumes that each input has exactly one solution, and no element can be used twice.
-     *
+     * <h4><a href="https://leetcode.com/problems/two-sum/description/">Two Sum</a></h4>
+     * Finds two numbers in the input array that add up to a specified target.<br>
+     * <br>
+     * This method returns the indices of the two numbers such that they add up to the target.<br>
+     * It assumes that each input has exactly one solution, and no element can be used twice.<br>
+     * <br>
      * @param nums the input array of integers
      * @param target the target sum we are looking for
      * @return an array of two integers representing the indices of the numbers that add up to the target,
      *         or null if no solution is found.
-     *
-     * Time Complexity: O(n) - where n is the number of elements in the array. We traverse the array once.
-     * Space Complexity: O(n) - the HashMap can contain up to n elements in the worst case.
+     * <br>
+     * Time Complexity: O(n) - where n is the number of elements in the array. We traverse the array once.<br>
+     * Space Complexity: O(n) - the HashMap can contain up to n elements in the worst case.<br>
      */
     public static int[] twoSum(int[] nums, int target) {
         // HashMap to store the numbers and their indices
