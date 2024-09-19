@@ -47,13 +47,7 @@ public class MinimumAbsoluteDifferenceInBSTTest {
     @Test
     public void testGetMinimumDifference_largeTree() {
         // Test case: A larger tree with more nodes
-        TreeNode largeRoot = new TreeNode(10);
-        largeRoot.left = new TreeNode(5);
-        largeRoot.right = new TreeNode(15);
-        largeRoot.left.left = new TreeNode(3);
-        largeRoot.left.right = new TreeNode(7);
-        largeRoot.right.left = new TreeNode(12);
-        largeRoot.right.right = new TreeNode(18);
+        TreeNode largeRoot = MinimumDistanceBetweenBSTNodesTest.createBST();
 
         int result = solution.getMinimumDifference(largeRoot);
         assertEquals(2, result, "The minimum absolute difference in the large tree should be 2");
