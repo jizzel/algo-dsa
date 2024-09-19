@@ -24,6 +24,11 @@ public class MinimumDistanceBetweenBSTNodes {
     Integer prev = null;
 
     /**
+     * Constructor
+     */
+    public MinimumDistanceBetweenBSTNodes(){}
+
+    /**
      * <h4><a href="https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/">Minimum Distance Between BST Nodes</a></h4>
      * Finds the minimum difference between any two nodes in a Binary Search Tree (BST).<br>
      * The function performs an inorder traversal, comparing adjacent nodes to find the minimum difference.<br>
