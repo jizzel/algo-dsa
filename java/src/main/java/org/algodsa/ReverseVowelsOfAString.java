@@ -1,5 +1,8 @@
 package main.java.org.algodsa;
 
+/**
+ * Reverse Vowels Of a String
+ */
 public class ReverseVowelsOfAString {
 
     /**
