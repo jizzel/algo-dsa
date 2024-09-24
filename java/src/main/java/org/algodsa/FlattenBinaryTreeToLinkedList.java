@@ -8,6 +8,11 @@ public class FlattenBinaryTreeToLinkedList {
     TreeNode prev = null;
 
     /**
+     * Constructor
+     */
+    public FlattenBinaryTreeToLinkedList(){}
+
+    /**
      * <h4><a href="https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/">Flatten Binary Tree to Linked List</a></h4>
      * Flattens the given binary tree into a linked list in-place.<br>
      * The method modifies the tree such that all left children are set to null and
