@@ -19,6 +19,9 @@ public class ReverseVowelsOfAString {
      * <br>
      * @param s The input string.
      * @return A new string with vowels reversed.
+     * <br>
+     * Time Complexity:  O(n), where n is the length of the string. The method iterates through the string to identify and swap vowels.
+     * Space Complexity: O(n), for converting the string to a character array, although this can also be considered O(1) if we ignore the input size.
      */
     public String reverseVowels(String s) {
         // Convert the string into a mutable character array

@@ -8,6 +8,8 @@ import java.util.Iterator;
  * This class implements the {@code Iterator<Long>} interface, providing an infinite stream of non-Fibonacci numbers.<br>
  * <br>
  * Fibonacci numbers are skipped, and every subsequent call to {@code next()} produces the next non-Fibonacci number.<br>
+ * Time Complexity:  O(1) for the next() method, similar to the NonFibonacciGenerator.
+ * Space Complexity: O(1), as it only uses a fixed amount of space for the current and next
  */
 public class NonFibonacciGenerator implements Iterator<Long> {
     private long current = 3; // The first Fibonacci number to start the range from
