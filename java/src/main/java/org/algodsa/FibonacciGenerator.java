@@ -13,6 +13,8 @@ import java.util.Iterator;
  * <br>
  * Example:<br>
  * 0, 1, 1, 2, 3, 5, 8, 13, 21, ...<br>
+ * Time Complexity:  O(1) for the next() method, similar to the NonFibonacciGenerator.
+ * Space Complexity: O(1), as it only uses a fixed amount of space for the current and next
  */
 public class FibonacciGenerator implements Iterator<Long> {
 
