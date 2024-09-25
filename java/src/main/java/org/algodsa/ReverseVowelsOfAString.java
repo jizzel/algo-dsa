@@ -10,7 +10,7 @@ public class ReverseVowelsOfAString {
      */
     public ReverseVowelsOfAString(){}
     /**
-     * <h4><a href="https://leetcode.com/problems/reverse-vowels-of-a-string/submissions/1396622781/">Reverse Vowels of a String</a></h4>
+     * <h4><a href="https://leetcode.com/problems/reverse-vowels-of-a-string/description/">Reverse Vowels of a String</a></h4>
      * Reverses the vowels in a given string.<br>
      * <br>
      * The method uses a two-pointer approach to swap vowels in the string, one pointer starting from the
