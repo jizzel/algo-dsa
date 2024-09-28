@@ -21,13 +21,27 @@ public class TreeNode {
     public TreeNode right;
 
     /**
+     * Constructor
+     */
+    public TreeNode() {}
+
+    /**
+     * Constructor
+     * @param val integer
+     */
+    public TreeNode(int val) { this.val = val; this.left = this.right = null; }
+
+    /**
      * Constructs a TreeNode with a specified value.
      * The left and right child nodes are initialized to null.
      *
      * @param val the value of the node
+     * @param left left node
+     * @param right right node
      */
-    public TreeNode(int val){
+    public TreeNode(int val, TreeNode left, TreeNode right){
         this.val = val;
-        this.left = this.right = null;
+        this.left = left;
+        this.right = right;
     }
 }

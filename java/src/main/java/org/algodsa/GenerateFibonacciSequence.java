@@ -16,12 +16,12 @@ import java.util.Iterator;
  * Time Complexity:  O(1) for the next() method, similar to the NonFibonacciGenerator.
  * Space Complexity: O(1), as it only uses a fixed amount of space for the current and next
  */
-public class FibonacciGenerator implements Iterator<Long> {
+public class GenerateFibonacciSequence implements Iterator<Long> {
 
     /**
      * Constructor
      */
-    public FibonacciGenerator(){}
+    public GenerateFibonacciSequence(){}
 
     // The current Fibonacci number
     private long current = 0;
