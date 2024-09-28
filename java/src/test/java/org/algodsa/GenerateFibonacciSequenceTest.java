@@ -1,17 +1,18 @@
 package test.java.org.algodsa;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import main.java.org.algodsa.GenerateFibonacciSequence;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import main.java.org.algodsa.FibonacciGenerator;
 
-public class FibonacciGeneratorTest {
+public class GenerateFibonacciSequenceTest {
 
-    private FibonacciGenerator generator;
+    private GenerateFibonacciSequence generator;
 
     @BeforeEach
     public void setUp() {
-        generator = new FibonacciGenerator();
+        generator = new GenerateFibonacciSequence();
     }
 
     @Test

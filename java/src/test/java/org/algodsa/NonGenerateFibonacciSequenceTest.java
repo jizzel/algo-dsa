@@ -8,7 +8,7 @@ import main.java.org.algodsa.NonFibonacciGenerator;
 
 import java.util.NoSuchElementException;
 
-public class NonFibonacciGeneratorTest {
+public class NonGenerateFibonacciSequenceTest {
 
     private NonFibonacciGenerator generator;
 

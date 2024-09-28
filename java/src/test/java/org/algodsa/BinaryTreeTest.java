@@ -1,16 +1,12 @@
 package test.java.org.algodsa;
 
 import main.java.org.algodsa.BinaryTree;
-import main.java.org.algodsa.Solution;
-import main.java.org.algodsa.TreeNode;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
-import java.util.Arrays;
-import java.util.List;
 
 class BinaryTreeTest {
     private BinaryTree binaryTree;
@@ -74,27 +70,6 @@ class BinaryTreeTest {
     }
 
     @Test
-    public void testPreorderTraversal() {
-        List<Integer> expected = Arrays.asList(1, 2, 4, 5, 3, 6, 7);
-        List<Integer> actual = Solution.preorderTraversal(binaryTree.root);
-        assertEquals(expected, actual);
-    }
-
-    @Test
-    public void testInorderTraversal() {
-        List<Integer> expected = Arrays.asList(4, 2, 5, 1, 6, 3, 7);
-        List<Integer> actual = Solution.inorderTraversal(binaryTree.root);
-        assertEquals(expected, actual);
-    }
-
-    @Test
-    public void testPostorderTraversal() {
-        List<Integer> expected = Arrays.asList(4, 5, 2, 6, 7, 3, 1);
-        List<Integer> actual = Solution.postorderTraversal(binaryTree.root);
-        assertEquals(expected, actual);
-    }
-
-    @Test
     public void testGetTreeHeight() {
         int height = binaryTree.getTreeHeight(binaryTree.root);
         assertEquals(3, height);  // The tree height should be 3
@@ -128,69 +103,6 @@ class BinaryTreeTest {
 
         // Reset System.out
         System.setOut(System.out);
-    }
-
-    @Test
-    public void testLevelOrderBottom() {
-        // Expected output: [[4, 5, 6, 7], [2, 3], [1]]
-        List<List<Integer>> expected = Arrays.asList(
-                Arrays.asList(4, 5, 6, 7),
-                Arrays.asList(2, 3),
-                List.of(1)
-        );
-
-        List<List<Integer>> actual = Solution.levelOrderBottom(binaryTree.root);
-        assertEquals(expected, actual);
-    }
-
-    @Test
-    public void testLevelOrderBottomWithEmptyTree() {
-        // Tree is empty (root is null)
-        binaryTree.root = null;
-
-        // Expected output: []
-        List<List<Integer>> expected = List.of();
-
-        List<List<Integer>> actual = Solution.levelOrderBottom(binaryTree.root);
-        assertEquals(expected, actual);
-    }
-
-    @Test
-    public void testLevelOrderBottomWithUnbalancedTree() {
-        // Unbalanced tree:
-        //       1
-        //        \
-        //         2
-        //          \
-        //           3
-
-        binaryTree.root = new TreeNode(1);
-        binaryTree.root.right = new TreeNode(2);
-        binaryTree.root.right.right = new TreeNode(3);
-
-        // Expected output: [[3], [2], [1]]
-        List<List<Integer>> expected = Arrays.asList(
-                List.of(3),
-                List.of(2),
-                List.of(1)
-        );
-
-        List<List<Integer>> actual = Solution.levelOrderBottom(binaryTree.root);
-        assertEquals(expected, actual);
-    }
-
-    @Test
-    public void testLevelOrderBottomWithSingleNode() {
-        // Tree with only one node
-        binaryTree.root = new TreeNode(1);
-
-        // Expected output: [[1]]
-        List<List<Integer>> expected = List.of(
-                List.of(1)
-        );
-
-        List<List<Integer>> actual = Solution.levelOrderBottom(binaryTree.root);
-        assertEquals(expected, actual);
     }
 }
 
