@@ -17,34 +17,70 @@ mvn test
 
 ### Leetcode Problems (Solved)
 
-- [476. Number Complement](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberComplement.java)
+- [67. Add Binary](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AddBinary.java)
+
+- [110. Balanced Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BalancedBinaryTree.java)
+- [704. Binary Search](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinarySearch.java)
+- [94. Binary Tree Inorder Traversal](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreeInorderTraversal.java)
+- [102. Binary Tree Level Order Traversal](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreeLevelOrderTraversal.java)
+- [107. Binary Tree Level Order Traversal II](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreeLevelOrderTraversalII.java)
+- [145. Binary Tree Postorder Traversal](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreePostorderTraversal.java)
+- [144. Binary Tree Preorder Traversal](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreePreorderTraversal.java)
+- [563. Binary Tree Tilt](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreeTilt.java)
+
+- [2243. Calculate Digit Sum of a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/CalculateDigitSumOfAString.java)
 - [1009. Complement of Base 10 Integer](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ComplementOfBase10Integer.java)
-- [2648. Generate Fibonacci Sequence](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FibonacciGenerator.java)
-- [509. Fibonacci Number](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FibonacciNumber.java)
-- [114. Flatten Binary Tree to Linked List](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FlattenBinaryTreeToLinkedList.java)
-- [530. Minimum Absolute Difference in BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumAbsoluteDifferenceInBST.java)
-- [783. Minimum Distance Between BST Nodes](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumDistanceBetweenBSTNodes.java)
-- [2678. Number of Senior Citizens](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfSeniorCitizens.java)
-- [938. Range Sum of BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RangeSumOfBST.java)
-- [344. Reverse String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ReverseString.java)
-- [345. Reverse Vowels of a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ReverseVowelsOfAString.java)
-- [2299. Strong Password Checker II](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/StrongPasswordCheckerII.java)
-- [653. Two Sum IV - Input is a BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/TwoSumIV.java)
+
+- [520. Detect Capital](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DetectCapital.java)
 - [543. Diameter of Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DiameterOfBinaryTree.java)
+
+- [171. Excel Sheet Column Number](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ExcelSheetColumnNumber.java)
+
+- [509. Fibonacci Number](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FibonacciNumber.java)
+- [28. Find the Index of the First Occurrence in a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FindTheIndexOfTheFirstOccurrenceInAString.java)
+- [387. First Unique Character in a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FirstUniqueCharacterInAString.java)
+- [412. Fizz Buzz](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FizzBuzz.java)
+- [114. Flatten Binary Tree to Linked List](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FlattenBinaryTreeToLinkedList.java)
+
+- [2648. Generate Fibonacci Sequence](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/GenerateFibonacciSequence.java)
+
 - [226. Invert Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/InvertBinaryTree.java)
 - [2583. Kth Largest Sum in a Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/KthLargestSumInABinaryTree.java)
-- [107. Binary Tree Level Order Traversal II](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreeLevelOrderTraversalII.java)
-- [102. Binary Tree Level Order Traversal](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreeLevelOrderTraversal.java)
-- [145. Binary Tree Postorder Traversal](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreePostorderTraversal.java)
-- [94. Binary Tree Inorder Traversal](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreeInorderTraversal.java)
-- [144. Binary Tree Preorder Traversal](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreePreorderTraversal.java)
-- [67. Add Binary](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AddBinary.java)
-- [290. Word Pattern](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/WordPattern.java)
-- [520. Detect Capital](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DetectCapital.java)
+
+- [58. Length of Last Word](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/LengthOfLastWord.java)
 - [14. Longest Common Prefix](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/LongestCommonPrefix.java)
-- [412. Fizz Buzz](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FizzBuzz.java)
+
+- [104. Maximum Depth of Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MaximumDepthOfBinaryTree.java)
+- [617. Merge Two Binary Trees](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MergeTwoBinaryTrees.java)
+- [530. Minimum Absolute Difference in BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumAbsoluteDifferenceInBST.java)
+- [111. Minimum Depth of Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumDepthOfBinaryTree.java)
+- [783. Minimum Distance Between BST Nodes](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumDistanceBetweenBSTNodes.java)
+
+- [476. Number Complement](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberComplement.java)
+- [2678. Number of Senior Citizens](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfSeniorCitizens.java)
+
+- [938. Range Sum of BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RangeSumOfBST.java)
+- [459. Repeated Substring Pattern](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RepeatedSubstringPattern.java)
+- [344. Reverse String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ReverseString.java)
+- [345. Reverse Vowels of a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ReverseVowelsOfAString.java)
+- [13. Roman to Integer](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RomanToInteger.java)
+- [1480. Running Sum of 1d Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RunningSumOf1dArray.java)
+
+- [100. Same Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SameTree.java)
+- [2299. Strong Password Checker II](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/StrongPasswordCheckerII.java)
+- [101. Symmetric Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SymmetricTree.java)
+
 - [709. To Lower Case](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ToLowerCase.java)
-- [28. Find the Index of the First Occurrence in a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FindTheIndexOfTheFirstOccurrenceInAString.java)
-- [171. Excel Sheet Column Number](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ExcelSheetColumnNumber.java)
-- [2243. Calculate Digit Sum of a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/***.java)
+- [1. Two Sum](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/TwoSum.java)
+- [167. Two Sum II - Input Array Is Sorted](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/TwoSumII.java)
+- [653. Two Sum IV - Input is a BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/TwoSumIV.java)
+
+- [290. Word Pattern](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/WordPattern.java)
+
+
+### Other Problems (Solved)
+- [Non-Fibonacci Numbers Generator](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NonFibonacciNumbersGenerator.java)
+
+- [Print Pyramid](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/PrintPyramid.java)
+
 - [...](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/)
