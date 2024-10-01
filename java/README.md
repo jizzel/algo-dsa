@@ -58,6 +58,7 @@ mvn test
 - [783. Minimum Distance Between BST Nodes](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumDistanceBetweenBSTNodes.java)
 
 - [476. Number Complement](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberComplement.java)
+- [434. Number of Segments in a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfSegmentsInAString.java)
 - [2678. Number of Senior Citizens](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfSeniorCitizens.java)
 
 - [938. Range Sum of BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RangeSumOfBST.java)
