@@ -69,6 +69,7 @@ mvn test
 - [1480. Running Sum of 1d Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RunningSumOf1dArray.java)
 
 - [100. Same Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SameTree.java)
+- [3110. Score of a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ScoreOfAString.java)
 - [2299. Strong Password Checker II](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/StrongPasswordCheckerII.java)
 - [101. Symmetric Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SymmetricTree.java)
 
