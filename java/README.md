@@ -46,7 +46,9 @@ mvn test
 
 - [2648. Generate Fibonacci Sequence](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/GenerateFibonacciSequence.java)
 
+- [701. Insert into a Binary Search Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/InsertIntoABinarySearchTree.java)
 - [226. Invert Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/InvertBinaryTree.java)
+
 - [2583. Kth Largest Sum in a Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/KthLargestSumInABinaryTree.java)
 
 - [58. Length of Last Word](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/LengthOfLastWord.java)
