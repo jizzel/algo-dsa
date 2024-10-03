@@ -15,5 +15,22 @@ public class SolutionTest {
         return root;
     }
 
+    static TreeNode setUp2() {
+        // Create the tree:
+        //      5
+        //     / \
+        //    3   6
+        //   / \   \
+        //  2   4   7
+        TreeNode root = new TreeNode(5);
+        root.left = new TreeNode(3);
+        root.right = new TreeNode(6);
+        root.left.left = new TreeNode(2);
+        root.left.right = new TreeNode(4);
+        root.right.right = new TreeNode(7);
+
+        return root;
+    }
+
 
 }

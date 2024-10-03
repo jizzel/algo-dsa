@@ -4,31 +4,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.TreeNode;
 import main.java.org.algodsa.TwoSumIV;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class TwoSumIVTest {
 
-    private TwoSumIV solution;
-    private TreeNode root;
-
-    @BeforeEach
-    public void setUp() {
-        solution = new TwoSumIV();
-
-        // Create the tree:
-        //      5
-        //     / \
-        //    3   6
-        //   / \   \
-        //  2   4   7
-        root = new TreeNode(5);
-        root.left = new TreeNode(3);
-        root.right = new TreeNode(6);
-        root.left.left = new TreeNode(2);
-        root.left.right = new TreeNode(4);
-        root.right.right = new TreeNode(7);
-    }
+    TwoSumIV solution = new TwoSumIV();;
+    TreeNode root = SolutionTest.setUp2();
 
     @Test
     public void testFindTarget_withTarget9() {
