@@ -4,7 +4,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.RangeSumOfBST;
 import main.java.org.algodsa.TreeNode;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class RangeSumOfBSTTest {

@@ -4,20 +4,20 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.DeleteNodeInABST;
 import main.java.org.algodsa.TreeNode;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class DeleteNodeInABSTTest {
 
     DeleteNodeInABST solution = new DeleteNodeInABST();;
-    TreeNode root;
-    @BeforeEach
-    public void setUpt(){
-        root = SolutionTest.setUp2();
-    }
+//    TreeNode root;
+//    @BeforeEach
+//    public void setUpt(){
+//        root = SolutionTest.setUp2();
+//    }
 
     @Test
     public void testDeleteNode_KeyExists() {
+        TreeNode root = SolutionTest.setUp2();
         // Test deleting a node with value 3 (which has two children)
         root = solution.deleteNode(root, 3);
 
@@ -38,6 +38,7 @@ public class DeleteNodeInABSTTest {
 
     @Test
     public void testDeleteNode_LeafNode() {
+        TreeNode root = SolutionTest.setUp2();
         // Test deleting a leaf node with value 7
         root = solution.deleteNode(root, 7);
 
@@ -55,6 +56,7 @@ public class DeleteNodeInABSTTest {
 
     @Test
     public void testDeleteNode_NodeWithOneChild() {
+        TreeNode root = SolutionTest.setUp2();
         // Test deleting a node with value 6 (which has only one child)
         root = solution.deleteNode(root, 6);
 
@@ -72,6 +74,7 @@ public class DeleteNodeInABSTTest {
 
     @Test
     public void testDeleteNode_RootNode() {
+        TreeNode root = SolutionTest.setUp2();
         // Test deleting the root node (which has two children)
         root = solution.deleteNode(root, 5);
 
@@ -89,6 +92,7 @@ public class DeleteNodeInABSTTest {
 
     @Test
     public void testDeleteNode_KeyDoesNotExist() {
+        TreeNode root = SolutionTest.setUp2();
         // Test deleting a node that doesn't exist in the tree (value 8)
         root = solution.deleteNode(root, 8);
 
