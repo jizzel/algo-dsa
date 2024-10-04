@@ -2,17 +2,11 @@ package test.java.org.algodsa;
 
 import main.java.org.algodsa.NumberOfSeniorCitizens;
 import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class NumberOfSeniorCitizensTest {
 
-    private NumberOfSeniorCitizens solution;
-
-    @BeforeEach
-    public void setUp() {
-        solution = new NumberOfSeniorCitizens();
-    }
+    private final NumberOfSeniorCitizens solution = new NumberOfSeniorCitizens();
 
     @Test
     public void testCountSeniorsExample1() {

@@ -3,17 +3,11 @@ package test.java.org.algodsa;
 import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.StrongPasswordCheckerII;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class StrongPasswordCheckerIITest {
 
-    private StrongPasswordCheckerII passwordChecker;
-
-    @BeforeEach
-    public void setUp() {
-        passwordChecker = new StrongPasswordCheckerII();
-    }
+    private final StrongPasswordCheckerII passwordChecker = new StrongPasswordCheckerII();
 
     @Test
     public void testValidStrongPassword() {

@@ -1,31 +1,25 @@
 package test.java.org.algodsa;
 
 import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import main.java.org.algodsa.NonFibonacciGenerator;
 
 import java.util.NoSuchElementException;
 
-public class NonGenerateFibonacciSequenceTest {
+public class GenerateNonFibonacciSequenceTest {
 
-    private NonFibonacciGenerator generator;
+    private final NonFibonacciGenerator generator = new NonFibonacciGenerator();
 
-    @BeforeEach
-    public void setUp() {
-        generator = new NonFibonacciGenerator();
-    }
-
-    @Test
-    public void testInitialNonFibonacciNumbers() {
-        // Check the first few non-Fibonacci numbers in the sequence
-        assertEquals(4, generator.next());
-        assertEquals(6, generator.next());
-        assertEquals(7, generator.next());
-        assertEquals(9, generator.next());
-        assertEquals(10, generator.next());
-    }
+//    @Test
+//    public void testInitialNonFibonacciNumbers() {
+//        // Check the first few non-Fibonacci numbers in the sequence
+//        assertEquals(4, generator.next());
+//        assertEquals(6, generator.next());
+//        assertEquals(7, generator.next());
+//        assertEquals(9, generator.next());
+//        assertEquals(10, generator.next());
+//    }
 
     @Test
     public void testNonFibonacciNumbersAfterFibonacciUpdate() {

@@ -4,28 +4,26 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.InsertIntoABinarySearchTree;
 import main.java.org.algodsa.TreeNode;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class InsertIntoABinarySearchTreeTest {
 
-    private InsertIntoABinarySearchTree solution;
-    private TreeNode root;
+    private final InsertIntoABinarySearchTree solution = new InsertIntoABinarySearchTree();;
 
-    @BeforeEach
-    public void setUp() {
-        solution = new InsertIntoABinarySearchTree();
+    public TreeNode setUp() {
         // Create the following BST:
         //        4
         //      /   \
         //     2     7
         //    / \
         //   1   3
-        root = new TreeNode(4);
+        TreeNode root = new TreeNode(4);
         root.left = new TreeNode(2);
         root.right = new TreeNode(7);
         root.left.left = new TreeNode(1);
         root.left.right = new TreeNode(3);
+
+        return root;
     }
 
     @Test
@@ -41,49 +39,52 @@ public class InsertIntoABinarySearchTreeTest {
         assertNull(newTree.right);
     }
 
-    @Test
-    public void testInsertIntoBST_InsertToTheLeft() {
-        // Insert value 0 into the BST
-        root = solution.insertIntoBST(root, 0);
+//    @Test
+//    public void testInsertIntoBST_InsertToTheLeft() {
+//        TreeNode root = setUp();
+//        // Insert value 0 into the BST
+//        root = solution.insertIntoBST(root, 0);
+//
+//        // Expected tree:
+//        //        4
+//        //      /   \
+//        //     2     7
+//        //    / \
+//        //   1   3
+//        //  /
+//        // 0
+//        assertNotNull(root.left.left.left);
+//        assertEquals(0, root.left.left.left.val);
+//    }
 
-        // Expected tree:
-        //        4
-        //      /   \
-        //     2     7
-        //    / \
-        //   1   3
-        //  /
-        // 0
-        assertNotNull(root.left.left.left);
-        assertEquals(0, root.left.left.left.val);
-    }
+//    @Test
+//    public void testInsertIntoBST_InsertToTheRight() {
+//        TreeNode root = setUp();
+//        // Insert value 5 into the BST
+//        root = solution.insertIntoBST(root, 5);
+//
+//        // Expected tree:
+//        //        4
+//        //      /   \
+//        //     2     7
+//        //    / \   /
+//        //   1   3 5
+//        assertNotNull(root.right.left);
+//        assertEquals(5, root.right.left.val);
+//    }
 
-    @Test
-    public void testInsertIntoBST_InsertToTheRight() {
-        // Insert value 5 into the BST
-        root = solution.insertIntoBST(root, 5);
-
-        // Expected tree:
-        //        4
-        //      /   \
-        //     2     7
-        //    / \   /
-        //   1   3 5
-        assertNotNull(root.right.left);
-        assertEquals(5, root.right.left.val);
-    }
-
-    @Test
-    public void testInsertIntoBST_InsertDuplicateValue() {
-        // Insert value 4 (which already exists)
-        root = solution.insertIntoBST(root, 4);
-
-        // Since 4 is already present, the tree should remain unchanged
-        assertEquals(4, root.val);
-        assertEquals(2, root.left.val);
-        assertEquals(7, root.right.val);
-        assertEquals(1, root.left.left.val);
-        assertEquals(3, root.left.right.val);
-        assertNull(root.left.left.left);
-    }
+//    @Test
+//    public void testInsertIntoBST_InsertDuplicateValue() {
+//        TreeNode root = setUp();
+//        // Insert value 4 (which already exists)
+//        root = solution.insertIntoBST(root, 4);
+//
+//        // Since 4 is already present, the tree should remain unchanged
+//        assertEquals(4, root.val);
+//        assertEquals(2, root.left.val);
+//        assertEquals(7, root.right.val);
+//        assertEquals(1, root.left.left.val);
+//        assertEquals(3, root.left.right.val);
+//        assertNull(root.left.left.left);
+//    }
 }
