@@ -3,17 +3,11 @@ package test.java.org.algodsa;
 import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.GenerateFibonacciSequence;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class GenerateFibonacciSequenceTest {
 
-    private GenerateFibonacciSequence generator;
-
-    @BeforeEach
-    public void setUp() {
-        generator = new GenerateFibonacciSequence();
-    }
+    private final GenerateFibonacciSequence generator = new GenerateFibonacciSequence();
 
     @Test
     public void testFirstFiveFibonacciNumbers() {

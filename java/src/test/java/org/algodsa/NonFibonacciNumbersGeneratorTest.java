@@ -3,20 +3,13 @@ package test.java.org.algodsa;
 import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.NonFibonacciNumbersGenerator;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
 public class NonFibonacciNumbersGeneratorTest {
 
-    private NonFibonacciNumbersGenerator generator;
-
-    @BeforeEach
-    public void setUp() {
-        generator = new NonFibonacciNumbersGenerator();
-    }
-
+    private final NonFibonacciNumbersGenerator generator = new NonFibonacciNumbersGenerator();
     @Test
     public void testGenerateNonFib() {
         // Set up to capture the output

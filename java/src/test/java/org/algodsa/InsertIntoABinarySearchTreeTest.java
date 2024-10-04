@@ -9,12 +9,11 @@ import org.junit.jupiter.api.Test;
 
 public class InsertIntoABinarySearchTreeTest {
 
-    private InsertIntoABinarySearchTree solution;
+    private final InsertIntoABinarySearchTree solution = new InsertIntoABinarySearchTree();;
     private TreeNode root;
 
     @BeforeEach
     public void setUp() {
-        solution = new InsertIntoABinarySearchTree();
         // Create the following BST:
         //        4
         //      /   \

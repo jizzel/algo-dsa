@@ -4,12 +4,17 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.DeleteNodeInABST;
 import main.java.org.algodsa.TreeNode;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class DeleteNodeInABSTTest {
 
     DeleteNodeInABST solution = new DeleteNodeInABST();;
-    TreeNode root = SolutionTest.setUp2();
+    TreeNode root;
+    @BeforeEach
+    public void setUpt(){
+        root = SolutionTest.setUp2();
+    }
 
     @Test
     public void testDeleteNode_KeyExists() {

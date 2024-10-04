@@ -4,16 +4,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.FlattenBinaryTreeToLinkedList;
 import main.java.org.algodsa.TreeNode;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class FlattenBinaryTreeToLinkedListTest {
-    private FlattenBinaryTreeToLinkedList flattener;
-
-    @BeforeEach
-    public void setUp() {
-        flattener = new FlattenBinaryTreeToLinkedList();
-    }
+    private final FlattenBinaryTreeToLinkedList flattener = new FlattenBinaryTreeToLinkedList();
 
     @Test
     public void testFlattenEmptyTree() {

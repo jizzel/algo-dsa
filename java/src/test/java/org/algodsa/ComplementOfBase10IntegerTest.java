@@ -3,16 +3,10 @@ package test.java.org.algodsa;
 import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.ComplementOfBase10Integer;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class ComplementOfBase10IntegerTest {
-    private ComplementOfBase10Integer solution;
-
-    @BeforeEach
-    public void setUp() {
-        solution = new ComplementOfBase10Integer();
-    }
+    private final ComplementOfBase10Integer solution = new ComplementOfBase10Integer();
 
     @Test
     public void testFindComplement_Example1() {

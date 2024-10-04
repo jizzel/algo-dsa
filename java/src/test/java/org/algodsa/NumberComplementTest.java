@@ -3,16 +3,10 @@ package test.java.org.algodsa;
 import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.NumberComplement;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class NumberComplementTest {
-    private NumberComplement solution;
-
-    @BeforeEach
-    public void setUp() {
-        solution = new NumberComplement();
-    }
+    private final NumberComplement solution = new NumberComplement();
 
     @Test
     public void testFindComplement_Example1() {

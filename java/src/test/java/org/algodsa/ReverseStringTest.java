@@ -3,17 +3,11 @@ package test.java.org.algodsa;
 import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.ReverseString;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class ReverseStringTest {
 
-    private ReverseString solution;
-
-    @BeforeEach
-    public void setUp() {
-        solution = new ReverseString();
-    }
+    private final ReverseString solution = new ReverseString();
 
     @Test
     public void testReverseString_evenLength() {

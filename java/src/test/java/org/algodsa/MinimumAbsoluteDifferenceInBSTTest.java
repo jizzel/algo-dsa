@@ -9,12 +9,11 @@ import org.junit.jupiter.api.Test;
 
 public class MinimumAbsoluteDifferenceInBSTTest {
 
-    private MinimumAbsoluteDifferenceInBST solution;
+    private final MinimumAbsoluteDifferenceInBST solution = new MinimumAbsoluteDifferenceInBST();
     private TreeNode root;
 
     @BeforeEach
     public void setUp() {
-        solution = new MinimumAbsoluteDifferenceInBST();
 
         // Create the tree:
         //      4

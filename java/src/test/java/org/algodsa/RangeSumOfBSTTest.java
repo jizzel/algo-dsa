@@ -9,12 +9,11 @@ import org.junit.jupiter.api.Test;
 
 public class RangeSumOfBSTTest {
 
-    private RangeSumOfBST solution;
+    private final RangeSumOfBST solution = new RangeSumOfBST();
     private TreeNode root;
 
     @BeforeEach
     public void setUp() {
-        solution = new RangeSumOfBST();
 
         // Create the tree:
         //      10

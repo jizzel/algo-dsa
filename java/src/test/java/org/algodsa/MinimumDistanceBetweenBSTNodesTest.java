@@ -9,12 +9,11 @@ import org.junit.jupiter.api.Test;
 
 public class MinimumDistanceBetweenBSTNodesTest {
 
-    private MinimumDistanceBetweenBSTNodes solution;
+    private final MinimumDistanceBetweenBSTNodes solution = new MinimumDistanceBetweenBSTNodes();
     private TreeNode root;
 
     @BeforeEach
     public void setUp() {
-        solution = new MinimumDistanceBetweenBSTNodes();
 
         // Create the tree:
         //      4

@@ -6,10 +6,10 @@ import main.java.org.algodsa.AddStrings;
 import org.junit.jupiter.api.Test;
 
 public class AddStringsTest {
+    private final AddStrings solution = new AddStrings();
 
     @Test
     public void testAddStrings_Example1() {
-        AddStrings solution = new AddStrings();
         String num1 = "11";
         String num2 = "123";
         String result = solution.addStrings(num1, num2);
@@ -18,7 +18,6 @@ public class AddStringsTest {
 
     @Test
     public void testAddStrings_Example2() {
-        AddStrings solution = new AddStrings();
         String num1 = "456";
         String num2 = "77";
         String result = solution.addStrings(num1, num2);
@@ -27,7 +26,6 @@ public class AddStringsTest {
 
     @Test
     public void testAddStrings_Example3() {
-        AddStrings solution = new AddStrings();
         String num1 = "0";
         String num2 = "0";
         String result = solution.addStrings(num1, num2);
@@ -36,7 +34,6 @@ public class AddStringsTest {
 
     @Test
     public void testAddStrings_LargeNumbers() {
-        AddStrings solution = new AddStrings();
         String num1 = "987654321";
         String num2 = "123456789";
         String result = solution.addStrings(num1, num2);
@@ -45,7 +42,6 @@ public class AddStringsTest {
 
     @Test
     public void testAddStrings_WithCarryOver() {
-        AddStrings solution = new AddStrings();
         String num1 = "999";
         String num2 = "999";
         String result = solution.addStrings(num1, num2);
@@ -54,7 +50,6 @@ public class AddStringsTest {
 
     @Test
     public void testAddStrings_OneNumberZero() {
-        AddStrings solution = new AddStrings();
         String num1 = "0";
         String num2 = "1000";
         String result = solution.addStrings(num1, num2);
@@ -63,7 +58,6 @@ public class AddStringsTest {
 
     @Test
     public void testAddStrings_DifferentLengths() {
-        AddStrings solution = new AddStrings();
         String num1 = "1";
         String num2 = "9999";
         String result = solution.addStrings(num1, num2);
