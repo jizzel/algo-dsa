@@ -30,4 +30,4 @@ jobs:
       # Navigate to the java directory and run Maven tests
       - name: Run Maven tests
         working-directory: ./java  # Ensures you're in the correct directory
-        run: mvn test
+        run: mvn -X test
