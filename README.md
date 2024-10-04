@@ -26,6 +26,8 @@
 ## What You'll Find:
 
 This repository serves as a collaborative platform for our daily LeetCode problem-solving adventures!
+* [Java](https://github.com/jizzel/algo-dsa/tree/main/java)
+* [Python](https://github.com/jizzel/algo-dsa/tree/main/python)
 
 ### What You'll Find:
 
