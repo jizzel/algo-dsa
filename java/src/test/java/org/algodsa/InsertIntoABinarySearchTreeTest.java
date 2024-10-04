@@ -4,27 +4,26 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.InsertIntoABinarySearchTree;
 import main.java.org.algodsa.TreeNode;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class InsertIntoABinarySearchTreeTest {
 
     private final InsertIntoABinarySearchTree solution = new InsertIntoABinarySearchTree();;
-    private TreeNode root;
 
-    @BeforeEach
-    public void setUp() {
+    public TreeNode setUp() {
         // Create the following BST:
         //        4
         //      /   \
         //     2     7
         //    / \
         //   1   3
-        root = new TreeNode(4);
+        TreeNode root = new TreeNode(4);
         root.left = new TreeNode(2);
         root.right = new TreeNode(7);
         root.left.left = new TreeNode(1);
         root.left.right = new TreeNode(3);
+
+        return root;
     }
 
     @Test
@@ -42,6 +41,7 @@ public class InsertIntoABinarySearchTreeTest {
 
     @Test
     public void testInsertIntoBST_InsertToTheLeft() {
+        TreeNode root = setUp();
         // Insert value 0 into the BST
         root = solution.insertIntoBST(root, 0);
 
@@ -59,6 +59,7 @@ public class InsertIntoABinarySearchTreeTest {
 
     @Test
     public void testInsertIntoBST_InsertToTheRight() {
+        TreeNode root = setUp();
         // Insert value 5 into the BST
         root = solution.insertIntoBST(root, 5);
 
@@ -74,6 +75,7 @@ public class InsertIntoABinarySearchTreeTest {
 
     @Test
     public void testInsertIntoBST_InsertDuplicateValue() {
+        TreeNode root = setUp();
         // Insert value 4 (which already exists)
         root = solution.insertIntoBST(root, 4);
 
