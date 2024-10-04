@@ -24,6 +24,8 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '21'
+          distribution: 'temurin'
+          cache: maven
 
       # Navigate to the java directory and run Maven tests
       - name: Run Maven tests
