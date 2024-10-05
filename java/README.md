@@ -19,6 +19,7 @@ mvn test
 
 - [67. Add Binary](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AddBinary.java)
 - [415. Add Strings](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AddStrings.java)
+- [1305. All Elements in Two Binary Search Trees](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AllElementsInTwoBinarySearchTrees.java)
 
 - [110. Balanced Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BalancedBinaryTree.java)
 - [704. Binary Search](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinarySearch.java)
