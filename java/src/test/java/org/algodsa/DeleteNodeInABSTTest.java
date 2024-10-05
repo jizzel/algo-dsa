@@ -8,12 +8,7 @@ import org.junit.jupiter.api.Test;
 
 public class DeleteNodeInABSTTest {
 
-    DeleteNodeInABST solution = new DeleteNodeInABST();;
-//    TreeNode root;
-//    @BeforeEach
-//    public void setUpt(){
-//        root = SolutionTest.setUp2();
-//    }
+    DeleteNodeInABST solution = new DeleteNodeInABST();
 
     @Test
     public void testDeleteNode_KeyExists() {
