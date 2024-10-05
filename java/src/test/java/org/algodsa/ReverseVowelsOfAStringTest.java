@@ -3,17 +3,11 @@ package test.java.org.algodsa;
 import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.ReverseVowelsOfAString;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class ReverseVowelsOfAStringTest {
 
-    private ReverseVowelsOfAString solution;
-
-    @BeforeEach
-    public void setUp() {
-        solution = new ReverseVowelsOfAString();
-    }
+    private final ReverseVowelsOfAString solution = new ReverseVowelsOfAString();
 
     @Test
     public void testReverseVowelsSimple() {

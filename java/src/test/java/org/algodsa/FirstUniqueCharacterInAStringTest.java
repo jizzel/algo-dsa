@@ -3,16 +3,10 @@ package test.java.org.algodsa;
 import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.FirstUniqueCharacterInAString;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class FirstUniqueCharacterInAStringTest {
-    private FirstUniqueCharacterInAString solution;
-
-    @BeforeEach
-    public void setUp() {
-        solution = new FirstUniqueCharacterInAString();
-    }
+    private final FirstUniqueCharacterInAString solution = new FirstUniqueCharacterInAString();
 
     @Test
     public void testFirstUniqChar_Example1() {

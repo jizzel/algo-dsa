@@ -3,17 +3,11 @@ package test.java.org.algodsa;
 import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.CalculateDigitSumOfAString;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class CalculateDigitSumOfAStringTest {
 
-    private CalculateDigitSumOfAString calculator;
-
-    @BeforeEach
-    public void setUp() {
-        calculator = new CalculateDigitSumOfAString();
-    }
+    private final CalculateDigitSumOfAString calculator = new CalculateDigitSumOfAString();
 
     @Test
     public void testDigitSum_Example1() {

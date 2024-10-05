@@ -12,7 +12,7 @@ public class GenerateFibonacciSequenceTest {
 
     @BeforeEach
     public void setUp() {
-        generator = new GenerateFibonacciSequence();
+        generator = new GenerateFibonacciSequence(); // Re-initialize for each test
     }
 
     @Test

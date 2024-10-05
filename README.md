@@ -26,13 +26,14 @@
 ## What You'll Find:
 
 This repository serves as a collaborative platform for our daily LeetCode problem-solving adventures!
+* [Java](https://github.com/jizzel/algo-dsa/tree/main/java)
+* [Python](https://github.com/jizzel/algo-dsa/tree/main/python)
 
 ### What You'll Find:
 
 <ul>
     <li>Python Solutions: Jupyter Notebooks containing your (username) solutions implemented in Python.</li>
     <li>Java Solutions: Separate Java files, each containing a solution to a specific LeetCode problem.</li>
-    <li>Main File: A Java main file that can be used to run any of the Java solution files.</li>
     <li>Clear and concise explanations of problem statements, approaches, and code logic.</li>
     <li>Commented and well-formatted code adhering to best practices for readability and maintainability.</li>
     <li>Time and space complexity analysis of solutions using Big O notation.</li>
@@ -45,7 +46,7 @@ This repository serves as a collaborative platform for our daily LeetCode proble
 
 Run Java Solutions:
 Open the main Java file.
-Uncomment or modify the desired problem solution file name within the main function.
+Uncomment or modify the main method to run a target solution or run the test cases with maven.
 Run the main file to execute the selected solution.
 
 ### Why Collaborate?

@@ -3,17 +3,11 @@ package test.java.org.algodsa;
 import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.FibonacciNumber;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class FibonacciNumberTest {
 
-    private FibonacciNumber solution;
-
-    @BeforeEach
-    public void setUp() {
-        solution = new FibonacciNumber();
-    }
+    private final FibonacciNumber solution = new FibonacciNumber();
 
     @Test
     public void testFibonacciZero() {
