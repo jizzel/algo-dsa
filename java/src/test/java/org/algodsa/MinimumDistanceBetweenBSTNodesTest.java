@@ -26,13 +26,13 @@ public class MinimumDistanceBetweenBSTNodesTest {
         return root;
     }
 
-//    @Test
-//    public void testMinDiffInBST() {
-//        TreeNode root = setUp();
-//        // Test case: Calculate the minimum difference
-//        int result = solution.minDiffInBST(root);
-//        assertEquals(1, result, "The minimum absolute difference in the tree should be 1");
-//    }
+    @Test
+    public void testMinDiffInBST() {
+        TreeNode root = setUp();
+        // Test case: Calculate the minimum difference
+        int result = solution.minDiffInBST(root);
+        assertEquals(1, result, "The minimum absolute difference in the tree should be 1");
+    }
 
     @Test
     public void testMinDiffInBST_singleNode() {
