@@ -27,6 +27,9 @@
 
 This repository serves as a collaborative platform for our daily LeetCode problem-solving adventures!
 
+* [Java](https://github.com/jizzel/algo-dsa/tree/main/java)
+* [Python](https://github.com/jizzel/algo-dsa/tree/main/python)
+
 ### What You'll Find:
 
 <ul>
@@ -44,9 +47,10 @@ This repository serves as a collaborative platform for our daily LeetCode proble
 ### How to Use:
 
 Run Java Solutions:
-Open the main Java file.
-Uncomment or modify the desired problem solution file name within the main function.
-Run the main file to execute the selected solution.
+* Open the Main Java file.
+* Uncomment or modify the main method to specify a target solution
+* Run the main file to execute the target solution.
+* Or run maven tests to execute test cases.
 
 ### Why Collaborate?
 
