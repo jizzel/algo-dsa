@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 public class InsertIntoABinarySearchTreeTest {
 
-    private final InsertIntoABinarySearchTree solution = new InsertIntoABinarySearchTree();;
+    private final InsertIntoABinarySearchTree solution = new InsertIntoABinarySearchTree();
 
     public TreeNode setUp() {
         // Create the following BST:
