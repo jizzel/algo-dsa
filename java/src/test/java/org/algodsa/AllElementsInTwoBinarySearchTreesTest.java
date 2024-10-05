@@ -43,6 +43,13 @@ public class AllElementsInTwoBinarySearchTreesTest {
     }
 
     @Test
+    public void testGetAllElementsSecondApproach() {
+        List<Integer> result = solution.getAllElements2(root1, root2);
+        List<Integer> expected = List.of(0, 1, 1, 2, 3, 4);
+        assertEquals(expected, result);
+    }
+
+    @Test
     public void testGetAllElements_EmptyTree1() {
         root1 = null;
         List<Integer> result = solution.getAllElements(root1, root2);
