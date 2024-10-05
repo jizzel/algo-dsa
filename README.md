@@ -54,7 +54,7 @@ Run the main file to execute the selected solution.
 - **Structured Review:** Jupyter Notebooks and separate Java files provide a structured format for documenting solutions, promoting efficient review and knowledge retention.
 - **Diverse Perspectives:** Working in different languages allows us to explore various coding techniques and gain a more comprehensive understanding of problem-solving.
 
-[Wanna `contribute`](#contributing-to-leetcode-solutions-repository)?
+#### [Wanna `contribute`](#contributing-to-leetcode-solutions-repository)?
 
 ### Looking Ahead:
 
