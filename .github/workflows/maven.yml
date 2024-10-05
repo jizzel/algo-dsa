@@ -1,0 +1,39 @@
+name: Run Java Tests
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+# No jobs defined yet
+jobs: {}
+#jobs:
+#  test:
+#    name: Run Tests in Java Directory
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#      # Checkout the code in your repository
+#      - name: Checkout code
+#        uses: actions/checkout@v3
+#
+#      # Set up the JDK environment (updated to JDK 21)
+#      - name: Set up JDK 21
+#        uses: actions/setup-java@v3
+#        with:
+#          java-version: '21'
+#          distribution: 'temurin'
+#          cache: maven
+#
+#      # Print environment details for debugging
+#      - name: Print environment details
+#        run: |
+#          uname -a
+#          java -version
+#          mvn --version
+#
+#      # Navigate to the java directory and run Maven tests
+#      - name: Run Maven tests
+#        working-directory: ./java  # Ensures you're in the correct directory
+#        run: mvn -X test
