@@ -46,7 +46,7 @@ This repository serves as a collaborative platform for our daily LeetCode proble
 
 Run Java Solutions:
 Open the main Java file.
-Uncomment or modify the desired problem solution file name within the main function.
+Uncomment or modify the main method to run a target solution or run the test cases with maven.
 Run the main file to execute the selected solution.
 
 ### Why Collaborate?
