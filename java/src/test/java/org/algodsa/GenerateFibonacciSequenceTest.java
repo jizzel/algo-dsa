@@ -3,21 +3,15 @@ package test.java.org.algodsa;
 import static org.junit.jupiter.api.Assertions.*;
 
 import main.java.org.algodsa.GenerateFibonacciSequence;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class GenerateFibonacciSequenceTest {
 
     private GenerateFibonacciSequence generator;
 
-    @BeforeEach
-    public void setUp() {
-        generator = new GenerateFibonacciSequence(); // Re-initialize for each test
-    }
-
     @Test
     public void testFirstFiveFibonacciNumbers() {
-//        generator = new GenerateFibonacciSequence();
+        generator = new GenerateFibonacciSequence();
         // The first 5 Fibonacci numbers are: 0, 1, 1, 2, 3
         assertEquals(0, generator.next(), "The first Fibonacci number should be 0");
         assertEquals(1, generator.next(), "The second Fibonacci number should be 1");
@@ -28,7 +22,7 @@ public class GenerateFibonacciSequenceTest {
 
     @Test
     public void testNextFibonacciNumbers() {
-//        generator = new GenerateFibonacciSequence();
+        generator = new GenerateFibonacciSequence();
         // Generate the first 6 Fibonacci numbers: 0, 1, 1, 2, 3, 5
         for (int i = 0; i < 5; i++) {
             generator.next(); // skip first 5 numbers
@@ -40,7 +34,7 @@ public class GenerateFibonacciSequenceTest {
 
     @Test
     public void testLargeFibonacciNumber() {
-//        generator = new GenerateFibonacciSequence();
+        generator = new GenerateFibonacciSequence();
         // Skip the first 50 Fibonacci numbers and get the 51st
         for (int i = 0; i < 50; i++) {
             generator.next();
