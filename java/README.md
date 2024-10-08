@@ -57,6 +57,7 @@ mvn test
 - [58. Length of Last Word](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/LengthOfLastWord.java)
 - [14. Longest Common Prefix](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/LongestCommonPrefix.java)
 
+- [485. Max Consecutive Ones](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MaxConsecutiveOnes.java)
 - [104. Maximum Depth of Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MaximumDepthOfBinaryTree.java)
 - [617. Merge Two Binary Trees](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MergeTwoBinaryTrees.java)
 - [530. Minimum Absolute Difference in BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumAbsoluteDifferenceInBST.java)
