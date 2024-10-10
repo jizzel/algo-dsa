@@ -26,6 +26,7 @@ mvn test
 - [94. Binary Tree Inorder Traversal](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreeInorderTraversal.java)
 - [102. Binary Tree Level Order Traversal](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreeLevelOrderTraversal.java)
 - [107. Binary Tree Level Order Traversal II](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreeLevelOrderTraversalII.java)
+- [257. Binary Tree Paths](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreePaths.java)
 - [145. Binary Tree Postorder Traversal](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreePostorderTraversal.java)
 - [144. Binary Tree Preorder Traversal](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreePreorderTraversal.java)
 - [563. Binary Tree Tilt](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreeTilt.java)
@@ -36,6 +37,7 @@ mvn test
 - [450. Delete Node in a BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DeleteNodeInABST.java)
 - [520. Detect Capital](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DetectCapital.java)
 - [543. Diameter of Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DiameterOfBinaryTree.java)
+- [1089. Duplicate Zeros](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DuplicateZeros.java)
 
 - [171. Excel Sheet Column Number](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ExcelSheetColumnNumber.java)
 
