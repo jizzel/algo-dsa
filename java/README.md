@@ -71,6 +71,8 @@ mvn test
 - [434. Number of Segments in a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfSegmentsInAString.java)
 - [2678. Number of Senior Citizens](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfSeniorCitizens.java)
 
+- [112. Path Sum](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/PathSum.java)
+
 - [938. Range Sum of BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RangeSumOfBST.java)
 - [26. Remove Duplicates from Sorted Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RemoveDuplicatesFromSortedArray.java)
 - [459. Repeated Substring Pattern](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RepeatedSubstringPattern.java)
