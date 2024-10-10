@@ -36,6 +36,7 @@ mvn test
 - [450. Delete Node in a BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DeleteNodeInABST.java)
 - [520. Detect Capital](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DetectCapital.java)
 - [543. Diameter of Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DiameterOfBinaryTree.java)
+- [1089. Duplicate Zeros](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DuplicateZeros.java)
 
 - [171. Excel Sheet Column Number](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ExcelSheetColumnNumber.java)
 
