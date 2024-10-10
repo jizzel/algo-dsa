@@ -32,6 +32,7 @@ mvn test
 - [563. Binary Tree Tilt](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreeTilt.java)
 
 - [2243. Calculate Digit Sum of a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/CalculateDigitSumOfAString.java)
+- [1346. Check If N and Its Double Exist](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/CheckIfNAndItsDoubleExist.java)
 - [1009. Complement of Base 10 Integer](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ComplementOfBase10Integer.java)
 
 - [450. Delete Node in a BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DeleteNodeInABST.java)
@@ -70,7 +71,10 @@ mvn test
 - [434. Number of Segments in a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfSegmentsInAString.java)
 - [2678. Number of Senior Citizens](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfSeniorCitizens.java)
 
+- [112. Path Sum](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/PathSum.java)
+
 - [938. Range Sum of BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RangeSumOfBST.java)
+- [26. Remove Duplicates from Sorted Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RemoveDuplicatesFromSortedArray.java)
 - [27. Remove Element](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RemoveElement.java)
 - [459. Repeated Substring Pattern](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RepeatedSubstringPattern.java)
 - [344. Reverse String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ReverseString.java)
@@ -90,6 +94,7 @@ mvn test
 - [653. Two Sum IV - Input is a BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/TwoSumIV.java)
 - [669. Trim a Binary Search Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/TrimABinarySearchTree.java)
 
+- [941. Valid Mountain Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ValidMountainArray.java)
 - [20. Valid Parentheses](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ValidParentheses.java)
 
 - [290. Word Pattern](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/WordPattern.java)
