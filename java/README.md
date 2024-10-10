@@ -89,6 +89,7 @@ mvn test
 - [653. Two Sum IV - Input is a BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/TwoSumIV.java)
 - [669. Trim a Binary Search Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/TrimABinarySearchTree.java)
 
+- [941. Valid Mountain Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ValidMountainArray.java)
 - [20. Valid Parentheses](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ValidParentheses.java)
 
 - [290. Word Pattern](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/WordPattern.java)
