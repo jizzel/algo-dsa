@@ -75,6 +75,7 @@ mvn test
 
 - [938. Range Sum of BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RangeSumOfBST.java)
 - [26. Remove Duplicates from Sorted Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RemoveDuplicatesFromSortedArray.java)
+- [27. Remove Element](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RemoveElement.java)
 - [459. Repeated Substring Pattern](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RepeatedSubstringPattern.java)
 - [344. Reverse String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ReverseString.java)
 - [345. Reverse Vowels of a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ReverseVowelsOfAString.java)
