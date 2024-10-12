@@ -66,6 +66,7 @@ mvn test
 - [530. Minimum Absolute Difference in BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumAbsoluteDifferenceInBST.java)
 - [111. Minimum Depth of Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumDepthOfBinaryTree.java)
 - [783. Minimum Distance Between BST Nodes](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumDistanceBetweenBSTNodes.java)
+- [283. Move Zeroes](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MoveZeroes.java)
 
 - [476. Number Complement](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberComplement.java)
 - [434. Number of Segments in a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfSegmentsInAString.java)
