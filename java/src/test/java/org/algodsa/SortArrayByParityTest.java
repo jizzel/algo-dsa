@@ -12,7 +12,7 @@ public class SortArrayByParityTest {
     @Test
     public void testSortArrayByParity_BasicCase() {
         int[] nums = {3, 1, 2, 4};
-        int[] expected = {4, 2, 1, 3}; // Any valid permutation where even numbers come first
+//        int[] expected = {4, 2, 1, 3}; // Any valid permutation where even numbers come first
         int[] result = solution.sortArrayByParity(nums);
         assertTrue(isEvenBeforeOdd(result), "Even numbers should appear before odd numbers.");
     }
@@ -44,7 +44,7 @@ public class SortArrayByParityTest {
     @Test
     public void testSortArrayByParity_MixedWithZero() {
         int[] nums = {0, 1, 2, 3};
-        int[] expected = {0, 2, 1, 3}; // Valid permutation with even numbers first
+//        int[] expected = {0, 2, 1, 3}; // Valid permutation with even numbers first
         int[] result = solution.sortArrayByParity(nums);
         assertTrue(isEvenBeforeOdd(result), "Zero is an even number and should appear before odd numbers.");
     }
