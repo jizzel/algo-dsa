@@ -78,6 +78,7 @@ mvn test
 - [26. Remove Duplicates from Sorted Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RemoveDuplicatesFromSortedArray.java)
 - [27. Remove Element](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RemoveElement.java)
 - [459. Repeated Substring Pattern](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RepeatedSubstringPattern.java)
+- [1299. Replace Elements with Greatest Element on Right Side](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ReplaceElementsWithGreatestElementOnRightSide.java)
 - [344. Reverse String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ReverseString.java)
 - [345. Reverse Vowels of a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ReverseVowelsOfAString.java)
 - [13. Roman to Integer](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RomanToInteger.java)
