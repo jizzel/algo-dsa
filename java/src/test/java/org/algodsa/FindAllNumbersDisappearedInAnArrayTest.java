@@ -30,6 +30,8 @@ public class FindAllNumbersDisappearedInAnArrayTest {
         List<Integer> result = solution.findDisappearedNumbers(nums);
         List<Integer> expected = Arrays.asList(5, 6);  // Missing numbers are 5 and 6
         assertEquals(expected, result);
+        result = solution.findDisappearedNumbers2(nums);
+        assertEquals(expected, result);
     }
 
     @Test
