@@ -51,6 +51,8 @@ mvn test
 
 - [2648. Generate Fibonacci Sequence](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/GenerateFibonacciSequence.java)
 
+- [1051. Height Checker](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/HeightChecker.java)
+
 - [701. Insert into a Binary Search Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/InsertIntoABinarySearchTree.java)
 - [226. Invert Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/InvertBinaryTree.java)
 
