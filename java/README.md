@@ -91,6 +91,7 @@ mvn test
 - [2299. Strong Password Checker II](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/StrongPasswordCheckerII.java)
 - [101. Symmetric Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SymmetricTree.java)
 
+- [414. Third Maximum Number](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ThirdMaximumNumber.java)
 - [709. To Lower Case](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ToLowerCase.java)
 - [1. Two Sum](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/TwoSum.java)
 - [167. Two Sum II - Input Array Is Sorted](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/TwoSumII.java)
