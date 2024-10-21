@@ -30,7 +30,7 @@ public class PathSumII {
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
         result = new ArrayList<>();
 
-        findSum(root, targetSum, new ArrayList<Integer>());
+        findSum(root, targetSum, new ArrayList<>());
 
         return result;
     }
