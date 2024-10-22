@@ -92,6 +92,7 @@ mvn test
 - [100. Same Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SameTree.java)
 - [3110. Score of a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ScoreOfAString.java)
 - [905. Sort Array By Parity](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SortArrayByParity.java)
+- [75. Sort Colors](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SortColors.java)
 - [977. Squares of a Sorted Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SquaresOfASortedArray.java)
 - [2299. Strong Password Checker II](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/StrongPasswordCheckerII.java)
 - [101. Symmetric Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SymmetricTree.java)
