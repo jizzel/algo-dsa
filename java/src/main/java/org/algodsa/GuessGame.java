@@ -25,12 +25,8 @@ public class GuessGame {
      *        0 if the guessed number is equal to the picked number
      */
     protected int guess(int num) {
-        if (num < pickedNumber) {
-            return 1; // num is lower than the picked number
-        } else if (num > pickedNumber) {
-            return -1; // num is higher than the picked number
-        } else {
-            return 0; // num is equal to the picked number
-        }
+        // num is higher than the picked number
+        // num is equal to the picked number
+        return Integer.compare(pickedNumber, num); // num is lower than the picked number
     }
 }
