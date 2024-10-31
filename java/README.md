@@ -52,6 +52,7 @@ mvn test
 - [114. Flatten Binary Tree to Linked List](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FlattenBinaryTreeToLinkedList.java)
 
 - [2648. Generate Fibonacci Sequence](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/GenerateFibonacciSequence.java)
+- [374. Guess Number Higher or Lower](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/GuessNumberHigherOrLower.java)
 
 - [1051. Height Checker](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/HeightChecker.java)
 
