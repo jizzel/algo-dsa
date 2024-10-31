@@ -49,6 +49,7 @@ mvn test
 - [1295. Find Numbers with Even Number of Digits](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FindNumbersWithEvenNumberOfDigits.java)
 - [162. Find Peak Element](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FindPeakElement.java)
 - [28. Find the Index of the First Occurrence in a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FindTheIndexOfTheFirstOccurrenceInAString.java)
+- [278. First Bad Version](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FirstBadVersion.java)
 - [387. First Unique Character in a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FirstUniqueCharacterInAString.java)
 - [412. Fizz Buzz](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FizzBuzz.java)
 - [114. Flatten Binary Tree to Linked List](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FlattenBinaryTreeToLinkedList.java)
