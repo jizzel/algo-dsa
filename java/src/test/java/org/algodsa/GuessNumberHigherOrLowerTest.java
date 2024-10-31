@@ -19,13 +19,9 @@ public class GuessNumberHigherOrLowerTest {
         guessGame = new GuessNumberHigherOrLower(pickedNumber) {
             @Override
             protected int guess(int num) {
-                if (num < pickedNumber) {
-                    return 1; // Guess too low
-                } else if (num > pickedNumber) {
-                    return -1; // Guess too high
-                } else {
-                    return 0; // Correct guess
-                }
+                // Guess too high
+                // Correct guess
+                return Integer.compare(pickedNumber, num); // Guess too low
             }
         };
     }
