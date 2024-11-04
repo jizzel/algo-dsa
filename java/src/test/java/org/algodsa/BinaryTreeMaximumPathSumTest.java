@@ -45,30 +45,35 @@ public class BinaryTreeMaximumPathSumTest {
     @Test
     public void testMaxPathSumNegativeNodes() {
         TreeNode root = createTree(-10, 9, 20, null, null, 15, 7);
+        assert root != null;
         assertEquals(42, pathSumCalculator.maxPathSum(root), "Should handle trees with negative nodes and compute correct max path sum");
     }
 
     @Test
     public void testMaxPathSumMixedValues() {
         TreeNode root = createTree(2, -1);
+        assert root != null;
         assertEquals(2, pathSumCalculator.maxPathSum(root), "Should compute max path sum with mixed positive and negative values");
     }
 
     @Test
     public void testMaxPathSumOnlyNegativeValues() {
         TreeNode root = createTree(-3, -2, -4);
+        assert root != null;
         assertEquals(-2, pathSumCalculator.maxPathSum(root), "Should return highest single node value in case all are negative");
     }
 
     @Test
     public void testMaxPathSumLargerTree() {
         TreeNode root = createTree(1, 2, 3, 4, 5, 6, 7);
+        assert root != null;
         assertEquals(18, pathSumCalculator.maxPathSum(root), "Should compute correct max path sum for larger balanced tree");
     }
 
     @Test
     public void testMaxPathSumComplexTree() {
         TreeNode root = createTree(10, 2, 10, 20, 1, -25, null, null, null, 3, 4);
+        assert root != null;
         assertEquals(42, pathSumCalculator.maxPathSum(root), "Should compute correct max path sum in complex tree with negative and positive values");
     }
 }
