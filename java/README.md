@@ -38,6 +38,7 @@ mvn test
 
 - [1302. Deepest Leaves Sum](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DeepestLeavesSum.java)
 - [450. Delete Node in a BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DeleteNodeInABST.java)
+- [622. Design Circular Queue](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DesignCircularQueue.java)
 - [520. Detect Capital](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DetectCapital.java)
 - [543. Diameter of Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DiameterOfBinaryTree.java)
 - [1089. Duplicate Zeros](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DuplicateZeros.java)
