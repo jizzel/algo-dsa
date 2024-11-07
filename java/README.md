@@ -106,6 +106,7 @@ mvn test
 - [977. Squares of a Sorted Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SquaresOfASortedArray.java)
 - [2299. Strong Password Checker II](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/StrongPasswordCheckerII.java)
 - [129. Sum Root to Leaf Numbers](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SumRootToLeafNumbers.java)
+- [24. Swap Nodes in Pairs](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SwapNodesInPairs.java)
 - [101. Symmetric Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SymmetricTree.java)
 
 - [414. Third Maximum Number](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ThirdMaximumNumber.java)
