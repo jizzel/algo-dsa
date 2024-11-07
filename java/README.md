@@ -79,6 +79,7 @@ mvn test
 - [283. Move Zeroes](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MoveZeroes.java)
 
 - [476. Number Complement](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberComplement.java)
+- [200. Number of Islands](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfIslands.java)
 - [434. Number of Segments in a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfSegmentsInAString.java)
 - [2678. Number of Senior Citizens](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfSeniorCitizens.java)
 
