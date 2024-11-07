@@ -57,7 +57,6 @@ public class SwapNodesInPairsTest {
     @Test
     public void testSwapPairsEmptyList() {
         SwapNodesInPairs solution = new SwapNodesInPairs();
-        ListNode head = null;
         ListNode swapped = solution.swapPairs(null);
         assertNull(swapped, "An empty list should remain unchanged.");
     }
