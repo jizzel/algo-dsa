@@ -18,11 +18,8 @@ public class BinaryTreeMaximumPathSum {
      * <h4><a href="https://leetcode.com/problems/binary-tree-maximum-path-sum/description/">124. Binary Tree Maximum Path Sum</a></h4>
      * Calculates the maximum path sum of a binary tree.
      * <br>
-     * Time complexity: O(n)
-     * Space complexity: O(h)
-     * <br>
-     * The time complexity is O(n), where n is the number of nodes in the tree. We visit each node once.
-     * The space complexity is O(h), where h is the height of the tree, due to recursion stack.<br>
+     * Time complexity is O(n), where n is the number of nodes in the tree. We visit each node once.
+     * Space complexity is O(h), where h is the height of the tree, due to recursion stack.<br>
      * <br>
      * @param root the root node of the binary tree
      * @return the maximum path sum
