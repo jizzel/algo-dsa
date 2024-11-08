@@ -20,6 +20,12 @@ public class NumberOfIslands {
      * <br>
      * Counts the number of islands in the given grid.
      * <br>
+     * Time complexity: O(m * n)
+     * Space complexity: O(m * n)
+     * <br>
+     * The time complexity is O(m * n) where m is the number of rows and n is the number of columns in the grid.
+     * The space complexity is O(m * n) due to the recursion stack or BFS queue and the grid modification.
+     * <br>
      * @param grid a 2D character array representing the map, where '1' represents land and '0' represents water
      * @return the number of islands in the grid
      */

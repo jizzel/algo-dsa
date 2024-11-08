@@ -20,6 +20,12 @@ public class GuessNumberHigherOrLower extends GuessGame {
      * This method performs a binary search to find the picked number
      * within the range from 1 to n.<br>
      * <br>
+     * Time complexity: O(log n)
+     * Space complexity: O(1)
+     * <br>
+     * The binary search reduces the search space by half each time, resulting in O(log n) time complexity.
+     * Space complexity is O(1) as no additional data structures are used.<br>
+     * <br>
      * @param n the upper limit of the guessing range
      * @return the picked number if guessed correctly
      */

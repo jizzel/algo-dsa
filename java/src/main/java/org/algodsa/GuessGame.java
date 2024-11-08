@@ -18,7 +18,11 @@ public class GuessGame {
 
     /**
      * Simulates the guess API to check a user's guess against the picked number.
-     *
+     * <br>
+     * Time complexity: O(1)
+     * Space complexity: O(1)
+     * <br>
+     * The guess function runs in constant time, as it performs a few conditional checks.
      * @param num the number being guessed
      * @return 1 if the guessed number is lower than the picked number,
      *        -1 if the guessed number is higher than the picked number,

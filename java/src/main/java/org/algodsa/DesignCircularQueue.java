@@ -3,6 +3,12 @@ package main.java.org.algodsa;
 /**
  * <a href="https://leetcode.com/problems/design-circular-queue/">622. Design Circular Queue</a>
  * <br>
+ * Time complexity: O(1)
+ * Space complexity: O(k)
+ * <br>
+ * All operations (enqueue, dequeue, front, rear, isEmpty, isFull) take constant time, O(1).
+ * The space complexity is O(k), where k is the size of the queue.
+ * <br>
  * This class implements a circular queue using a fixed-size array.
  * It provides methods to enqueue and dequeue elements, and to check the
  * front and rear elements, as well as to verify if the queue is empty or full.
