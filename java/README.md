@@ -84,6 +84,7 @@ mvn test
 - [434. Number of Segments in a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfSegmentsInAString.java)
 - [2678. Number of Senior Citizens](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfSeniorCitizens.java)
 
+- [119. Pascal's Triangle II](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/PascalsTriangleII.java)
 - [112. Path Sum](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/PathSum.java)
 - [113. Path Sum II](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/PathSumII.java)
 - [437. Path Sum III](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/PathSumIII.java)
