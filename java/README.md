@@ -34,6 +34,7 @@ mvn test
 
 - [2243. Calculate Digit Sum of a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/CalculateDigitSumOfAString.java)
 - [1346. Check If N and Its Double Exist](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/CheckIfNAndItsDoubleExist.java)
+- [70. Climbing Stairs](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ClimbingStairs.java)
 - [1009. Complement of Base 10 Integer](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ComplementOfBase10Integer.java)
 
 - [1302. Deepest Leaves Sum](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DeepestLeavesSum.java)
