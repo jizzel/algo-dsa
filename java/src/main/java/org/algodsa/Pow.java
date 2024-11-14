@@ -13,10 +13,10 @@ public class Pow {
     /**
      * <h4><a href="https://leetcode.com/problems/powx-n/description/">Pow(x, n)</a></h4>
      * Computes x raised to the power of n.
-     *
+     * <br>
      * Time complexity: O(log n)
      * Space complexity: O(log n)
-     *
+     * <br>
      * The time complexity is O(log n) because we divide the exponent by 2 in each recursive call.
      * The space complexity is also O(log n) due to the recursion stack depth.
      *
