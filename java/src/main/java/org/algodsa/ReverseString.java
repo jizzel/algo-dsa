@@ -30,4 +30,28 @@ public class ReverseString {
             s[j] = temp;
         }
     }
+
+    /**
+     * Alternative approach - Recursion
+     * @param s char[]
+     */
+    public void reverseString2(char[] s) {
+        helper(0, s.length-1, s);
+    }
+
+    /**
+     * Helper method
+     * @param l integer
+     * @param r integer
+     * @param s char[]
+     */
+    private void helper(int l, int r, char[] s){
+        if(l >= r) return;
+
+        char temp = s[l];
+        s[l] = s[r];
+        s[r] = temp;
+
+        helper(++l, --r, s);
+    }
 }

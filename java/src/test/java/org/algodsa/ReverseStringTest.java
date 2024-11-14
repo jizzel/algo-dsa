@@ -34,6 +34,15 @@ public class ReverseStringTest {
     }
 
     @Test
+    public void testReverseString2_oddLength() {
+        char[] input = {'t', 'e', 's', 't', 's'};
+        char[] expected = {'s', 't', 's', 'e', 't'};
+
+        solution.reverseString2(input);
+        assertArrayEquals(expected, input, "The array should be reversed for an odd-length input");
+    }
+
+    @Test
     public void testReverseString_singleCharacter() {
         char[] input = {'a'};
         char[] expected = {'a'};
