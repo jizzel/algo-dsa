@@ -88,6 +88,7 @@ mvn test
 - [113. Path Sum II](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/PathSumII.java)
 - [437. Path Sum III](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/PathSumIII.java)
 - [66. Plus One](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/PlusOne.java)
+- [50. Pow(x, n)](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/Pow.java)
 
 - [938. Range Sum of BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RangeSumOfBST.java)
 - [26. Remove Duplicates from Sorted Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RemoveDuplicatesFromSortedArray.java)
