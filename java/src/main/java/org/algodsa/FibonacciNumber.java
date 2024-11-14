@@ -1,5 +1,8 @@
 package main.java.org.algodsa;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Fibonacci Number
  */
@@ -36,5 +39,25 @@ public class FibonacciNumber {
         }
 
         return b;  // b now contains fib(n)
+    }
+
+    Map<Integer, Integer> memo = new HashMap<>();
+
+    /**
+     * Alternative solution: Memoization Approach
+     * <br>
+     * @param n integer
+     * @return integer
+     */
+    public int fib2(int n) {
+        int result = n;
+        if(n < 2) return result;
+
+        if(memo.containsKey(n)) return memo.get(n);
+
+        result = fib2(n-1) + fib2(n-2);
+        memo.put(n, result);
+
+        return result;
     }
 }

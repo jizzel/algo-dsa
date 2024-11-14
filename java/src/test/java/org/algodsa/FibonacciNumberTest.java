@@ -37,6 +37,7 @@ public class FibonacciNumberTest {
     public void testFibonacciLargerNumber() {
         // Test case when n = 10 (Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55)
         assertEquals(55, solution.fib(10), "The Fibonacci of 10 should be 55");
+        assertEquals(55, solution.fib2(10), "The Fibonacci of 10 should be 55");
     }
 
     @Test
