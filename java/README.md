@@ -106,6 +106,7 @@ mvn test
 - [100. Same Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SameTree.java)
 - [33. Search in Rotated Sorted Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SearchInRotatedSortedArray.java)
 - [3110. Score of a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ScoreOfAString.java)
+- [912. Sort an Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SortAnArray.java)
 - [905. Sort Array By Parity](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SortArrayByParity.java)
 - [75. Sort Colors](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/SortColors.java)
 - [69. Sqrt(x)](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/Sqrt(x).java)
