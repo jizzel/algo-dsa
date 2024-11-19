@@ -125,6 +125,7 @@ mvn test
 
 - [941. Valid Mountain Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ValidMountainArray.java)
 - [20. Valid Parentheses](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ValidParentheses.java)
+- [98. Validate Binary Search Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ValidateBinarySearchTree.java)
 
 - [290. Word Pattern](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/WordPattern.java)
 
