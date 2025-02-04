@@ -95,6 +95,7 @@ mvn test
 
 - [938. Range Sum of BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RangeSumOfBST.java)
 - [26. Remove Duplicates from Sorted Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RemoveDuplicatesFromSortedArray.java)
+- [L83: Remove Duplicates from Sorted List](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RemoveDuplicatesFromSortedList.java)
 - [27. Remove Element](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RemoveElement.java)
 - [459. Repeated Substring Pattern](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RepeatedSubstringPattern.java)
 - [1299. Replace Elements with Greatest Element on Right Side](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ReplaceElementsWithGreatestElementOnRightSide.java)
