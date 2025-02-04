@@ -2,6 +2,14 @@
 
 ![LeetCode Logo](../leetcode.png)
 
+## Table of Contents
+- [Generating Javadocs](#generating-javadocs)
+- [Running Tests](#running-tests)
+- [Leetcode Problems (Solved)](#leetcode-problems-solved)
+- [Other Problems (Solved)](#other-problems-solved)
+- [Contribution Guidelines](#contribution-guidelines)
+- [License](#license)
+
 ## Generating Javadocs
 
 To generate the Javadocs HTML documentation, use the following command:
@@ -10,6 +18,7 @@ To generate the Javadocs HTML documentation, use the following command:
 javadoc -d java/out java/src/main/java/org/algodsa/*.java
 ```
 
+## Running Tests
 To run all the tests:
 ```sh
 mvn test

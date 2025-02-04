@@ -22,74 +22,58 @@
 - [Code of Conduct](#code-of-conduct)
 - [Questions](#questions)
 
-
-## What You'll Find:
+## What You'll Find
 
 This repository serves as a collaborative platform for our daily LeetCode problem-solving adventures!
 
-* [Java](https://github.com/jizzel/algo-dsa/tree/main/java)
-* [Python](https://github.com/jizzel/algo-dsa/tree/main/python)
+- [Java](https://github.com/jizzel/algo-dsa/tree/main/java)
+- [Python](https://github.com/jizzel/algo-dsa/tree/main/python)
 
-### What You'll Find:
+### What You'll Find
 
-<ul>
-    <li>Python Solutions: Jupyter Notebooks containing your (username) solutions implemented in Python.</li>
-    <li>Java Solutions: Separate Java files, each containing a solution to a specific LeetCode problem.</li>
-    <li>Main File: A Java main file that can be used to run any of the Java solution files.</li>
-    <li>Clear and concise explanations of problem statements, approaches, and code logic.</li>
-    <li>Commented and well-formatted code adhering to best practices for readability and maintainability.</li>
-    <li>Time and space complexity analysis of solutions using Big O notation.</li>
-    <li>Test cases to validate code correctness under various input scenarios.</li>
-    <li>Additional notes, insights, or alternative solutions discovered during the problem-solving process.</li>
-</ul>
+- Python Solutions: Jupyter Notebooks containing your (username) solutions implemented in Python.
+- Java Solutions: Separate Java files, each containing a solution to a specific LeetCode problem.
+- Main File: A Java main file that can be used to run any of the Java solution files.
+- Clear and concise explanations of problem statements, approaches, and code logic.
+- Commented and well-formatted code adhering to best practices for readability and maintainability.
+- Time and space complexity analysis of solutions using Big O notation.
+- Test cases to validate code correctness under various input scenarios.
+- Additional notes, insights, or alternative solutions discovered during the problem-solving process.
 
+## How to Use
 
-### How to Use:
+### Run Java Solutions
 
-Run Java Solutions:
-* Open the Main Java file.
-* Uncomment or modify the main method to specify a target solution
-* Run the main file to execute the target solution.
-* Or run maven tests to execute test cases.
+1. Open the Main Java file.
+2. Uncomment or modify the main method to specify a target solution.
+3. Run the main file to execute the target solution.
+4. Or run Maven tests to execute test cases.
 
-### Why Collaborate?
+## Why Collaborate?
 
-- **Shared Learning:** By sharing our solutions, we can learn from each other's approaches, strengthen problem-solving skills, and gain valuable insights.
-- **Structured Review:** Jupyter Notebooks and separate Java files provide a structured format for documenting solutions, promoting efficient review and knowledge retention.
-- **Diverse Perspectives:** Working in different languages allows us to explore various coding techniques and gain a more comprehensive understanding of problem-solving.
+- **Shared Learning**: By sharing our solutions, we can learn from each other's approaches, strengthen problem-solving skills, and gain valuable insights.
+- **Structured Review**: Jupyter Notebooks and separate Java files provide a structured format for documenting solutions, promoting efficient review and knowledge retention.
+- **Diverse Perspectives**: Working in different languages allows us to explore various coding techniques and gain a more comprehensive understanding of problem-solving.
 
-[Wanna `contribute`](#contributing-to-leetcode-solutions-repository)?
+## Looking Ahead
 
-### Looking Ahead:
-
-- **Visualizations:** Consider incorporating data visualizations in the Jupyter Notebooks to illustrate complex algorithms or data structures.
-- **Time Tracking:** Implement a system to record time spent on each problem for performance analysis.
-- **Code Optimization:** We can continuously investigate ways to optimize code for efficiency and readability.
-- **Problem Categorization:** Organizing problems by topic or difficulty level can facilitate targeted review and practice.
+- **Visualizations**: Consider incorporating data visualizations in the Jupyter Notebooks to illustrate complex algorithms or data structures.
+- **Time Tracking**: Implement a system to record time spent on each problem for performance analysis.
+- **Code Optimization**: Continuously investigate ways to optimize code for efficiency and readability.
+- **Problem Categorization**: Organize problems by topic or difficulty level to facilitate targeted review and practice.
 
 Feel free to contribute your solutions, insights, and improvements to this collaborative learning space!
 
-<br>
-<br>
-
-# Contributing to LeetCode Solutions Repository
+## Contributing to LeetCode Solutions Repository
 
 Thank you for your interest in contributing to our LeetCode solutions repository! We appreciate your help in making this project more comprehensive and useful for everyone.
 
 ## Authors
+
 This project is currently maintained and contributed to by:
 
-[- Joseph Afriyie Attakorah (Java solutions)](https://github.com/jizzel)<br>
-[- Abigail Woolley (Python solutions)](https://github.com/ABIGAILDEBBY)
-
-## Table of Contents
-
-- [Getting Started](#getting-started)
-- [How to Contribute](#how-to-contribute)
-- [Code Style](#code-style)
-- [Pull Request Process](#pull-request-process)
-- [Issue Reporting](#issue-reporting)
-- [Code of Conduct](#code-of-conduct)
+- [Joseph Afriyie Attakorah (Java solutions)](https://github.com/jizzel)
+- [Abigail Woolley (Python solutions)](https://github.com/ABIGAILDEBBY)
 
 ## Getting Started
 
