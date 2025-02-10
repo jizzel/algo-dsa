@@ -7,8 +7,6 @@
 - [Running Tests](#running-tests)
 - [Leetcode Problems (Solved)](#leetcode-problems-solved)
 - [Other Problems (Solved)](#other-problems-solved)
-- [Contribution Guidelines](#contribution-guidelines)
-- [License](#license)
 
 ## Generating Javadocs
 
