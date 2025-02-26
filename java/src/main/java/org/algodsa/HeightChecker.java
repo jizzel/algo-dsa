@@ -35,6 +35,10 @@ public class HeightChecker {
         return count;
     }
 
+    /**
+     * Bubble sort algorithm
+     * @param arr input array
+     */
     public void bubbleSort(int[] arr){
         boolean swapped = true;
 
