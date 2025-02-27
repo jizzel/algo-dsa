@@ -146,6 +146,8 @@ mvn test
 
 
 ### Other Problems (Solved)
+- [Insertion Sort](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/InsertionSort.java)
+
 - [Non-Fibonacci Numbers Generator](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NonFibonacciNumbersGenerator.java)
 
 - [Print Pyramid](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/PrintPyramid.java)
