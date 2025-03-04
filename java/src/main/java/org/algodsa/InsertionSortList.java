@@ -26,15 +26,14 @@ public class InsertionSortList {
      * @return the head of the sorted linked list
      */
     public ListNode insertionSortList(ListNode head) {
-        ListNode dummy = new ListNode(0); // Dummy node to simplify insertions
-        ListNode prev = dummy; // Pointer to the sorted portion
+        ListNode sorted = new ListNode(0); // Dummy sorted list node to simplify insertions
+        ListNode prev = sorted; // Pointer to the sorted portion
 
-        while (head != null) { // Iterate through the list
-            ListNode next = head.next; // Cache the next node
-
+        // Iterate through the dummy sorted list
+        while (head != null) {
             // If the current node's value is smaller, reset prev to the start
             if (prev.val >= head.val) {
-                prev = dummy;
+                prev = sorted;
             }
 
             // Find the correct position to insert the current node
@@ -42,12 +41,17 @@ public class InsertionSortList {
                 prev = prev.next;
             }
 
-            // Insert the node in the correct position
+            // Insert the node in the correct position:
+            // 1. Cache the next node
+            // 2. Insert the current node
+            // 3. Move to the next node
+            ListNode next = head.next; // Cache the next node
+            // Insert the current node
             head.next = prev.next;
             prev.next = head;
             head = next; // Move to the next node
         }
 
-        return dummy.next; // Return the sorted list
+        return sorted.next; // Return the sorted list
     }
 }
