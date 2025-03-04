@@ -70,6 +70,7 @@ mvn test
 - [1051. Height Checker](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/HeightChecker.java)
 
 - [701. Insert into a Binary Search Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/InsertIntoABinarySearchTree.java)
+- [147. Insertion Sort List](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/InsertionSortList.java)
 - [226. Invert Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/InvertBinaryTree.java)
 
 - [2583. Kth Largest Sum in a Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/KthLargestSumInABinaryTree.java)
