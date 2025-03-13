@@ -66,7 +66,7 @@ public class CountingSortTest {
         CountingSort sorter = new CountingSort();
         int[] arr = {};
         int[] expected = {};
-        sorter.sort(arr);
+        sorter.sortA(arr);
         assertArrayEquals(expected, arr);
     }
 }
