@@ -156,4 +156,6 @@ mvn test
 
 - [Print Pyramid](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/PrintPyramid.java)
 
+- [Compare Even Odd Sums](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/CompareEvenOddSums.java)
+
 - [...](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/)
