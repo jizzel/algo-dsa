@@ -2,6 +2,9 @@ package test.java.org.algodsa;
 
 import main.java.org.algodsa.BirdNest;
 import org.junit.jupiter.api.Test;
+
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class BirdNestTest {
@@ -56,9 +59,7 @@ public class BirdNestTest {
     @Test
     void testAllOnes() {
         int[] forest = new int[150];
-        for (int i = 0; i < forest.length; i++) {
-            forest[i] = 1;
-        }
+        Arrays.fill(forest, 1);
         int bird = 75;
         int[] result = birdNest.buildNest(forest, bird);
         int sum = sumOfSticks(forest, result);
