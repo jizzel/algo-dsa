@@ -13,7 +13,7 @@
 To generate the Javadocs HTML documentation, use the following command:
 
 ```sh
-javadoc -d java/out java/src/main/java/org/algodsa/*.java
+javadoc -d out src/main/java/org/algodsa/*.java
 ```
 
 ## Running Tests
@@ -29,6 +29,7 @@ mvn test
 - [1305. All Elements in Two Binary Search Trees](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AllElementsInTwoBinarySearchTrees.java)
 
 - [110. Balanced Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BalancedBinaryTree.java)
+- [121. Best Time to Buy and Sell Stock](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BestTimetoBuyandSellStock.java)
 - [704. Binary Search](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinarySearch.java)
 - [94. Binary Tree Inorder Traversal](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreeInorderTraversal.java)
 - [102. Binary Tree Level Order Traversal](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BinaryTreeLevelOrderTraversal.java)
