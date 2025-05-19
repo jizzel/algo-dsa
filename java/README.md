@@ -142,6 +142,7 @@ mvn -X test
 
 - [95. Unique Binary Search Trees II](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/UniqueBinarySearchTreesII.java)
 
+- [242. Valid Anagram](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ValidAnagram.java)
 - [941. Valid Mountain Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ValidMountainArray.java)
 - [125. Valid Palindrome](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ValidPalindrome.java)
 - [20. Valid Parentheses](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ValidParentheses.java)
