@@ -19,7 +19,7 @@ javadoc -d out src/main/java/org/algodsa/*.java
 ## Running Tests
 To run all the tests:
 ```sh
-mvn test
+mvn -X test
 ```
 
 ### Leetcode Problems (Solved)
@@ -44,6 +44,7 @@ mvn test
 - [1346. Check If N and Its Double Exist](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/CheckIfNAndItsDoubleExist.java)
 - [70. Climbing Stairs](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ClimbingStairs.java)
 - [1009. Complement of Base 10 Integer](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ComplementOfBase10Integer.java)
+- [L219. Contains Duplicate II](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ContainsDuplicateII.java)
 
 - [1302. Deepest Leaves Sum](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DeepestLeavesSum.java)
 - [450. Delete Node in a BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/DeleteNodeInABST.java)
