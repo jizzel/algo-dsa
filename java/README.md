@@ -75,6 +75,7 @@ mvn -X test
 - [701. Insert into a Binary Search Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/InsertIntoABinarySearchTree.java)
 - [147. Insertion Sort List](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/InsertionSortList.java)
 - [226. Invert Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/InvertBinaryTree.java)
+- [205. Isomorphic Strings](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/IsomorphicStrings.java)
 
 - [2583. Kth Largest Sum in a Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/KthLargestSumInABinaryTree.java)
 - [230. Kth Smallest Element in a BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/KthSmallestElementInABST.java)
