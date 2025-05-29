@@ -25,6 +25,7 @@ mvn -X test
 ### Leetcode Problems (Solved)
 
 - [67. Add Binary](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AddBinary.java)
+- [258. Add Digits](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AddDigits.java)
 - [415. Add Strings](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AddStrings.java)
 - [1305. All Elements in Two Binary Search Trees](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AllElementsInTwoBinarySearchTrees.java)
 
