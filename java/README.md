@@ -95,6 +95,7 @@ mvn -X test
 - [783. Minimum Distance Between BST Nodes](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumDistanceBetweenBSTNodes.java)
 - [283. Move Zeroes](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MoveZeroes.java)
 
+- [292. Nim Game](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NimGame.java)
 - [476. Number Complement](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberComplement.java)
 - [200. Number of Islands](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfIslands.java)
 - [434. Number of Segments in a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfSegmentsInAString.java)
