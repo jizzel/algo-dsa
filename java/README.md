@@ -94,6 +94,7 @@ mvn -X test
 - [530. Minimum Absolute Difference in BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumAbsoluteDifferenceInBST.java)
 - [111. Minimum Depth of Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumDepthOfBinaryTree.java)
 - [783. Minimum Distance Between BST Nodes](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumDistanceBetweenBSTNodes.java)
+- [268. Missing Number](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MissingNumber.java)
 - [283. Move Zeroes](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MoveZeroes.java)
 
 - [292. Nim Game](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NimGame.java)
