@@ -145,6 +145,7 @@ mvn -X test
 - [653. Two Sum IV - Input is a BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/TwoSumIV.java)
 - [669. Trim a Binary Search Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/TrimABinarySearchTree.java)
 
+- [263. Ugly Number](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/UglyNumber.java)
 - [95. Unique Binary Search Trees II](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/UniqueBinarySearchTreesII.java)
 
 - [242. Valid Anagram](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ValidAnagram.java)
