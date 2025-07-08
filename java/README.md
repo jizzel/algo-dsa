@@ -25,6 +25,7 @@ mvn -X test
 ### Leetcode Problems (Solved)
 
 - [67. Add Binary](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AddBinary.java)
+- [258. Add Digits](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AddDigits.java)
 - [415. Add Strings](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AddStrings.java)
 - [1305. All Elements in Two Binary Search Trees](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AllElementsInTwoBinarySearchTrees.java)
 
@@ -93,8 +94,10 @@ mvn -X test
 - [530. Minimum Absolute Difference in BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumAbsoluteDifferenceInBST.java)
 - [111. Minimum Depth of Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumDepthOfBinaryTree.java)
 - [783. Minimum Distance Between BST Nodes](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MinimumDistanceBetweenBSTNodes.java)
+- [268. Missing Number](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MissingNumber.java)
 - [283. Move Zeroes](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/MoveZeroes.java)
 
+- [292. Nim Game](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NimGame.java)
 - [476. Number Complement](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberComplement.java)
 - [200. Number of Islands](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfIslands.java)
 - [434. Number of Segments in a String](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/NumberOfSegmentsInAString.java)
