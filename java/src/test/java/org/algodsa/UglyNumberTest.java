@@ -24,16 +24,11 @@ public class UglyNumberTest {
         assertFalse(solution.isUgly(0));   // not positive
         assertFalse(solution.isUgly(-6));  // negative number
         assertFalse(solution.isUgly(7));   // prime and not 2, 3, or 5
+        assertTrue(solution.isUgly(1));
     }
 
     @Test
     void testLargeUglyNumber() {
         assertTrue(solution.isUgly(2 * 2 * 3 * 5 * 5 * 3)); // = 900
-    }
-
-    @Test
-    void testEdgeCases() {
-        assertFalse(solution.isUgly(-1));
-        assertTrue(solution.isUgly(1)); // base case
     }
 }
