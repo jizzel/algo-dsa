@@ -82,6 +82,7 @@ mvn -X test
 - [230. Kth Smallest Element in a BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/KthSmallestElementInABST.java)
 - [779. K-th Symbol in Grammar](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/KthSymbolInGrammar.java)
 
+- [747. Largest Number At Least Twice of Others](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/LargestNumberAtLeastTwiceOfOthers.java)
 - [58. Length of Last Word](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/LengthOfLastWord.java)
 - [14. Longest Common Prefix](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/LongestCommonPrefix.java)
 - [409. Longest Palindrome](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/LongestPalindrome.java)
