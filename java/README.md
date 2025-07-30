@@ -114,6 +114,7 @@ mvn -X test
 - [231. Power of Two](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/PowerOfTwo.java)
 
 - [938. Range Sum of BST](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RangeSumOfBST.java)
+- [303. Range Sum Query - Immutable](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RangeSumQueryImmutable.java)
 - [26. Remove Duplicates from Sorted Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RemoveDuplicatesFromSortedArray.java)
 - [L83: Remove Duplicates from Sorted List](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RemoveDuplicatesFromSortedList.java)
 - [27. Remove Element](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/RemoveElement.java)
