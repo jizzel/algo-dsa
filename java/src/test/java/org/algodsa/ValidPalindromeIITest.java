@@ -33,7 +33,7 @@ public class ValidPalindromeIITest {
 
     @Test
     void testValidPalindrome_CaseWithDeletionAtEndOrStart() {
-        assertFalse(solution.validPalindrome("abccaa"));           // Remove first 'a'
-        assertTrue(solution.validPalindrome("aabccaa"));          // Remove first or last 'a'
+        assertFalse(solution.validPalindrome("abccaa"));
+        assertTrue(solution.validPalindrome("aabccaa"));
     }
 }
