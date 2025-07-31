@@ -59,6 +59,7 @@ mvn -X test
 - [509. Fibonacci Number](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FibonacciNumber.java)
 - [448. Find All Numbers Disappeared in an Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FindAllNumbersDisappearedInAnArray.java)
 - [34. Find First and Last Position of Element in Sorted Array](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FindFirstAndLastPositionOfElementInSortedArray.java)
+- [389. Find the Difference](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FindTheDifference.java)
 - [724. Find Pivot Index](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FindPivotIndex.java)
 - [1295. Find Numbers with Even Number of Digits](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FindNumbersWithEvenNumberOfDigits.java)
 - [162. Find Peak Element](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/FindPeakElement.java)
