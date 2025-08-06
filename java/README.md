@@ -28,6 +28,7 @@ mvn -X test
 - [258. Add Digits](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AddDigits.java)
 - [415. Add Strings](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AddStrings.java)
 - [1305. All Elements in Two Binary Search Trees](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/AllElementsInTwoBinarySearchTrees.java)
+- [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/ApplyOperationsToMakeSumOfArrayGreaterThanOrEqualTok.java)
 
 - [110. Balanced Binary Tree](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BalancedBinaryTree.java)
 - [121. Best Time to Buy and Sell Stock](https://github.com/jizzel/algo-dsa/blob/main/java/src/main/java/org/algodsa/BestTimetoBuyandSellStock.java)
